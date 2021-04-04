@@ -1,17 +1,31 @@
 .smart-bar-container
   background: #ffe799
   color: #593d00
+  padding: 0
 
   .smart-bar
     width: 100%
     padding: 16px 0 16px 24px
 
     .smart-bar-title, .smart-bar-timer
-      font-weight: bold
+      font-weight: 700
 
-  .btn-close
-    width: 3rem
-    height: 3rem
+    .smart-bar-subtitle
+      font-weight: 400
+
+    .smart-bar-timer
+      font-size: 19px
+
+  button
+    width: 40px
+    height: 40px
+    margin: 8px
+    padding: 0 10px
+    border: none
+
+    svg
+      width: 12px
+      height: 12px
 
     &:focus
       outline: 4px solid #f0bd4f
