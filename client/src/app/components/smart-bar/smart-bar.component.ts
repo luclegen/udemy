@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SmartBarComponent implements OnInit {
 
+  h = 6;
+  m = 0;
+  s = 0;
+
   constructor() { }
 
   ngOnInit(): void {
