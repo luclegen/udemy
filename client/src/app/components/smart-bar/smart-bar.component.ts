@@ -7,18 +7,40 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SmartBarComponent implements OnInit {
 
-  h = 6;
-  m = 0;
-  s = 0;
+  h = -2;
+  m = -2;
+  s = -2;
+  title = 'New student deal';
+  subtitle = 'Sign up now to get courses for as low as $12.99 each. New users only.';
+  expired = false;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.initTimer();
+  }
+
+  initTimer() {
+    let countDownDate = new Date().getTime() + 6 * 60 * 60 * 1000;
+
+    let x = setInterval(() => {
+      const distance = countDownDate - new Date().getTime();
+
+      this.h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      this.m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      this.s = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        this.expired = true;
+        this.title = 'Anytime, anywhere';
+        this.subtitle = 'Learn on your schedule from any device';
+        clearInterval(x);
+      }
+    }, 1000);
   }
 
   close() {
     const container = document.querySelector('.smart-bar-container') as Element;
     container.classList.replace('d-flex', 'd-none');
   }
-
 }
