@@ -16,4 +16,9 @@ export class SmartBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  close() {
+    const container = document.querySelector('.smart-bar-container') as Element;
+    container.classList.replace('d-flex', 'd-none');
+  }
+
 }
