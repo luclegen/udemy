@@ -1,14 +1,14 @@
-<aside class="container-fluid d-flex justify-content-start smart-bar-container">
+<aside *ngIf="h > -2 && m > -2 && s > -2" class="container-fluid d-flex justify-content-start smart-bar-container" [ngStyle]="{ 'background': expired ? '#8ed1dc' : '#ffe799', 'color': expired ? '#003640' : '#593d00' }">
   <div class="d-lg-flex flex-column justify-content-center align-items-center smart-bar">
     <span class="smart-bar-copy">
       <span class="smart-bar-title">
-        New student deal
+        {{title}}
       </span>
       <span class="smart-bar-subtitle">
-        | Sign up now to get courses for as low as $12.99 each. New users only.&nbsp;
+        | {{subtitle}}&nbsp;
       </span>
     </span>
-    <span class="smart-bar-timer">
+    <span *ngIf="!expired" class="smart-bar-timer">
       Ends in
       <span>{{h}}h&nbsp;{{m}}m&nbsp;{{s}}s.</span>
     </span>
