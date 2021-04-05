@@ -39,8 +39,4 @@ export class SmartBarComponent implements OnInit {
     }, 1000);
   }
 
-  close() {
-    const container = document.querySelector('.smart-bar-container') as Element;
-    container.classList.replace('d-flex', 'd-none');
-  }
 }
