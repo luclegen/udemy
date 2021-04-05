@@ -1,0 +1,79 @@
+$defalt-color: #3c3b37
+$primary-color: #0f7c90
+$secondary-color: #094c59
+
+%separate
+  margin: 12px 0
+  padding: 0 12px
+
+header
+  height: 72px
+  padding: 0 16px
+
+  & *
+    box-shadow: none
+
+  a, input, nav
+    color: $defalt-color
+
+  a, nav
+
+    &:hover
+      color: $primary-color
+
+  input, span
+    font-size: 14px
+
+  a
+
+    &#logo
+      padding-right: 12px
+
+    &.link
+      @extend %separate
+
+    &.header-login, &.header-signup
+      font-weight: 700
+      margin-left: 8px
+      width: 177px
+      height: 42px
+
+    &.header-login
+      color: $primary-color
+      border: 1px solid $primary-color
+
+      &:hover
+        color: $secondary-color
+        border: 1px solid $secondary-color
+
+    &.header-signup
+      color: white
+      background: $primary-color
+
+      &:hover
+        background: $secondary-color      
+
+    &.icon-link
+      fill: $defalt-color
+
+      &:hover
+        fill: $primary-color
+
+    svg
+      width: 20px
+
+  nav
+
+    button
+      @extend %separate
+
+      &:hover
+        color: $primary-color
+
+  form
+    margin: 0 12px
+    width: 100%
+    fill: $defalt-color
+
+    svg
+      width: 18px
