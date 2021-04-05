@@ -21,9 +21,9 @@ export class SmartBarComponent implements OnInit {
   }
 
   initTimer() {
-    let countDownDate = new Date().getTime() + 6 * 60 * 60 * 1000;
+    const countDownDate = new Date().getTime() + 6 * 60 * 60 * 1000;
 
-    let x = setInterval(() => {
+    const x = setInterval(() => {
       const distance = countDownDate - new Date().getTime();
 
       this.h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
