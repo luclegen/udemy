@@ -1,3 +1,4 @@
+$spacer: 12px
 $defalt-color: #3c3b37
 $primary-color: #0f7c90
 $secondary-color: #094c59
@@ -8,7 +9,9 @@ $secondary-color: #094c59
 
 header
   height: 72px
-  padding: 0 16px
+
+  button.menu-opener
+    font-size: 25px
 
   & *
     box-shadow: none
@@ -33,25 +36,8 @@ header
       @extend %separate
 
     &.header-login, &.header-signup
-      font-weight: 700
-      margin-left: 8px
-      width: 177px
-      height: 42px
-
-    &.header-login
-      color: $primary-color
-      border: 1px solid $primary-color
-
-      &:hover
-        color: $secondary-color
-        border: 1px solid $secondary-color
-
-    &.header-signup
-      color: white
-      background: $primary-color
-
-      &:hover
-        background: $secondary-color      
+      width: 100px
+      height: 40px
 
     &.icon-link
       font-size: 20px
@@ -68,6 +54,14 @@ header
       &:hover
         color: $primary-color
 
-  form
-    margin: 0 12px
-    width: 100%
+@media (max-width: 800px)
+  header
+
+    button.menu-opener
+      display: flex !important
+
+@media (max-width: 1080px)
+  header
+
+    .business-link
+      display: none
