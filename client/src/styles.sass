@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+$spacer: 12px
+$defalt-color: #3c3b37
+$primary-color: #0f7c90
+$secondary-color: #094c59
+
+.mx-6
+  margin-left: $spacer !important
+  margin-right: $spacer !important
+
+.my-6
+  margin-top: $spacer !important
+  margin-bottom: $spacer !important
+
+.px-6
+  padding-left: $spacer !important
+  padding-right: $spacer !important
+
+.btn-primary
+  color: white !important
+  background: $primary-color !important
+
+  &:hover
+    background: $secondary-color !important
+
+.btn-outline-primary
+  color: $primary-color !important
+  border-color: $primary-color !important
+
+  &:hover
+    color: $secondary-color !important
+    border-color: $secondary-color !important
+    background: none !important
