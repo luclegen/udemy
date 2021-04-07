@@ -3,10 +3,6 @@ $defalt-color: #3c3b37
 $primary-color: #0f7c90
 $secondary-color: #094c59
 
-%separate
-  margin: 12px 0
-  padding: 0 12px
-
 header
   height: 72px
 
@@ -16,40 +12,15 @@ header
   & *
     box-shadow: none
 
-  a, input, nav
-    color: $defalt-color
-
-  a, nav
-
-    &:hover
-      color: $primary-color
-
   input, span
     font-size: 14px
 
-  a
+  .header-login, .header-signup
+    width: 100px
+    height: 40px
 
-    &.link
-      @extend %separate
-
-    &.header-login, &.header-signup
-      width: 100px
-      height: 40px
-
-    &.icon-link
-      font-size: 20px
-      color: $defalt-color
-
-      &:hover
-        color: $secondary-color
-
-  nav
-
-    button
-      @extend %separate
-
-      &:hover
-        color: $primary-color
+  .icon-link
+    font-size: 20px
 
 @media (max-width: 800px)
   header
