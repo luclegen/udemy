@@ -18,6 +18,25 @@ $secondary-color: #094c59
 .pr-6
   padding-right: $spacer *.75
 
+.card-link, .icon-link
+  display: flex
+  align-items: center
+
+.card-link
+  color: $defalt-color !important
+
+  &:hover
+    color: $primary-color !important
+
+.icon-link
+  color: $defalt-color
+
+  &:hover
+    color: $secondary-color
+
+.btn
+  padding: 0 12px !important
+
 .btn-primary
   display: flex !important
   justify-content: center !important
