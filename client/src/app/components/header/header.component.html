@@ -1,13 +1,13 @@
-<header class="container-fluid d-flex justify-content-start align-items-center px-3 shadow-sm">
-  <div>
-    <button class="btn d-none justify-content-center align-items-center menu-opener">
-      <i class="bi bi-list"></i>
-    </button>
+<header class="container-fluid d-flex justify-content-end align-items-center px-3 shadow-sm">
+  <button class="btn d-none justify-content-center align-items-center menu-opener">
+    <i class="bi bi-list"></i>
+  </button>
+  <div class="d-flex justify-content-center align-items-center logo">
+    <a class="pr-6" href="/" alt="Udemy">
+      <img src="assets/svg/udemy.svg" alt="Udemy" width="110" height="32">
+    </a>
   </div>
-  <a href="/" class="pr-6" alt="Udemy">
-    <img src="assets/svg/udemy.svg" alt="Udemy" width="110" height="32">
-  </a>
-  <nav class="d-flex align-self-stretch align-self-stretch align-items-stretch">
+  <nav class="d-flex align-self-stretch align-self-stretch align-items-stretch categories-link">
     <button class="btn card-link my-6 py-0" type="button">
       <span>Categories</span>
     </button>
@@ -20,28 +20,31 @@
       <input class="form-control border-0 py-0 pl-1 pr-3 bg-transparent" type="text" placeholder="Search for anything">
     </form>
   </div>
-  <div class="d-flex align-self-stretch align-items-stretch">
-    <a class="btn card-link my-6 business-link" href="https://business.udemy.com/request-demo-mx/?mx_pg=httpcachecontextsme-list&ref=ufb_header&locale=en_US" target="_blank">
+  <div class="d-flex align-self-stretch align-items-stretch business-link">
+    <a class="btn card-link my-6" href="https://business.udemy.com/request-demo-mx/?mx_pg=httpcachecontextsme-list&ref=ufb_header&locale=en_US" target="_blank">
       <span>Udemy for Business</span>
     </a>
   </div>
-  <div class="d-flex align-self-stretch align-items-stretch">
+  <div class="d-flex align-self-stretch align-items-stretch teach-link">
     <a class="btn card-link my-6" href="https://www.udemy.com/teaching/?ref=teach_header">
       <span>Teach on Udemy</span>
     </a>
   </div>
+  <button class="btn search-btn">
+    <i class="bi bi-search"></i>
+  </button>
   <div class="d-flex align-self-stretch align-items-stretch">
     <a class="btn icon-link my-6" href="https://www.udemy.com/cart/">
       <i class="bi bi-cart3"></i>
     </a>
   </div>
-  <div class="ml-2">
-    <a class="btn btn-outline-primary font-weight-bold header-login" href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F">
+  <div class="ml-2 header-login">
+    <a class="btn btn-outline-primary font-weight-bold" href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F">
       <span>Log in</span>
     </a>
   </div>
-  <div class="ml-2">
-    <a class="btn btn-primary font-weight-bold header-signup" href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F">
+  <div class="ml-2 header-signup">
+    <a class="btn btn-primary font-weight-bold" href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F">
       <span>Sign up</span>
     </a>
   </div>

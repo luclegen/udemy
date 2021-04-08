@@ -6,8 +6,18 @@ $secondary-color: #094c59
 header
   height: 72px
 
-  button.menu-opener
+  .menu-opener
     font-size: 25px
+
+  .search-btn
+    font-size: 15px
+
+  .menu-opener, .search-btn, .icon-link
+    width: 48px
+    height: 48px
+
+  .icon-link
+    font-size: 20px
 
   & *
     box-shadow: none
@@ -22,17 +32,36 @@ header
     width: 100px
     height: 40px
 
-  .icon-link
-    font-size: 20px
-
 @media (max-width: 800px)
   header
+    height: 56px
+    padding: 4px !important
 
-    button.menu-opener
+    .menu-opener
       display: flex !important
+      margin-right: 48px
+
+    .logo
+      width: 100%
+
+      a
+        padding: 0
+
+        img
+          width: 96px
+          height: 28px
+
+    .icon-link
+      margin: 0
+
+    .categories-link, .search-bar, .header-login, .header-signup
+      display: none !important
+      margin: 0 !important
 
 @media (max-width: 1080px)
-  header
+  .business-link
+    display: none !important
 
-    .business-link
-      display: none
+@media (max-width: 920px)
+  .teach-link
+    display: none !important
