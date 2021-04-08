@@ -35,12 +35,13 @@ $secondary-color: #094c59
     color: $secondary-color
 
 .btn
-  padding: 0 12px !important
-
-.btn-primary
   display: flex !important
   justify-content: center !important
   align-items: center !important
+  border: 0 !important
+  padding: 0 12px !important
+
+.btn-primary
   border: none !important
   color: white !important
   background: $primary-color !important
@@ -53,9 +54,12 @@ $secondary-color: #094c59
   justify-content: center !important
   align-items: center !important
   color: $primary-color !important
-  border-color: $primary-color !important
+  border: 1px solid $primary-color !important
 
   &:hover
     border-color: $secondary-color !important
     color: $secondary-color !important
     background: none !important
+
+.form-control
+  height: 40px !important
