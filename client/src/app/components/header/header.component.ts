@@ -16,4 +16,8 @@ export class HeaderComponent implements OnInit {
     (document.querySelector('.search-in') as HTMLElement).style.setProperty('outline', '4px solid #e59819', 'important');
   }
 
+  hideOutline() {
+    (document.querySelector('.search-in') as HTMLElement).style.setProperty('outline', 'none', 'important');
+  }
+
 }
