@@ -1,5 +1,5 @@
-<aside *ngIf="h > -2 && m > -2 && s > -2" class="alert alert-dismissible smart-bar-container" role="alert" [ngStyle]="{ 'background': expired ? '#8ed1dc' : '#ffe799', 'color': expired ? '#003640' : '#593d00' }">
-  <div class="d-lg-flex flex-column justify-content-center align-items-center smart-bar">
+<aside *ngIf="h > -2 && m > -2 && s > -2" class="alert alert-dismissible m-0 p-0 smart-bar-container" role="alert" [ngStyle]="{ 'background': expired ? '#8ed1dc' : '#ffe799', 'color': expired ? '#003640' : '#593d00' }">
+  <div class="d-lg-flex flex-column py-3 pl-4 justify-content-center align-items-center smart-bar">
     <span class="smart-bar-copy">
       <span class="smart-bar-title">
         {{title}}
@@ -13,7 +13,7 @@
       <span>{{h}}h&nbsp;{{m}}m&nbsp;{{s}}s.</span>
     </span>
   </div>
-  <button type="button" class="btn close d-flex justify-content-center align-items-center" data-dismiss="alert">
+  <button type="button" class="btn close" data-dismiss="alert">
     <i class="bi bi-x"></i>
   </button>
 </aside>
