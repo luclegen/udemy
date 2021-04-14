@@ -17,7 +17,7 @@
       <button class="btn d-flex align-self-stretch text-secondary" type="button">
         <i class="bi bi-search"></i>
       </button>
-      <input class="form-control border-0 py-0 pl-1 pr-3 bg-transparent" type="text" placeholder="Search for anything">
+      <input class="form-control border-0 py-0 pl-1 pr-3 bg-transparent search-in" type="text" placeholder="Search for anything" (keyup)="showOutline()" (keydown)="hiddenOutline()" (click)="hiddenOutline()">
     </form>
   </div>
   <div class="d-flex align-self-stretch align-items-stretch business-link">
@@ -47,5 +47,10 @@
     <a class="btn btn-primary h-100 font-weight-bold" href="https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F">
       <span>Sign up</span>
     </a>
+  </div>
+  <div class="ml-2 header-lang">
+    <button type="button" class="btn btn-outline-dark btn-square">
+      <i class="bi bi-globe"></i>
+    </button>
   </div>
 </header>
