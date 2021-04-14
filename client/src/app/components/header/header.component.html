@@ -14,10 +14,10 @@
   </nav>
   <div class="flex-fill d-flex border border-secondary rounded-pill mx-6 search-bar">
     <form class="input-group d-flex align-self-stretch align-items-center">
-      <button class="btn d-flex align-self-stretch text-secondary" type="button">
+      <button class="btn d-flex align-self-stretch search-bar-btn" type="button">
         <i class="bi bi-search"></i>
       </button>
-      <input class="form-control border-0 py-0 pl-1 pr-3 bg-transparent search-in" type="text" placeholder="Search for anything" (keyup)="showOutline()" (keydown)="hideOutline()" (click)="hideOutline()">
+      <input class="form-control border-0 py-0 pl-1 pr-3 bg-transparent search-in" type="text" placeholder="Search for anything" (keyup)="showOutline()" (keydown)="hideOutline()" (change)="hideOutline()" (input)="hideOutline()">
     </form>
   </div>
   <div class="d-flex align-self-stretch align-items-stretch business-link">
