@@ -1,9 +1,9 @@
 $spacer: 16px
-$defalt-color: #3c3b37
-$primary-color: #0f7c90
-$secondary-color: #094c59
+$defalt-color: #1c1d1f
+$primary-color: #5624d0
+$secondary-color: #401b9c
 
-*:focus
+*:focus-visible
   outline: 4px solid #e59819 !important
 
 input:focus
@@ -66,16 +66,29 @@ input:focus
   &:hover
     background: $secondary-color !important
 
+.btn-square
+  width: 40px 
+  height: 40px
+  padding: 0 10px !important
+  font-size: 25px
+
+.close
+  margin: 8px !important
+
 .btn-outline-primary
-  display: flex !important
-  justify-content: center !important
-  align-items: center !important
   color: $primary-color !important
   border: 1px solid $primary-color !important
 
   &:hover
     border-color: $secondary-color !important
     color: $secondary-color !important
+    background: none !important
+
+.btn-outline-dark
+  border: 1px solid black !important
+
+  &:hover
+    color: black !important
     background: none !important
 
 .form-control
