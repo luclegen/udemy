@@ -12,8 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showOutline() {
-    (document.querySelector('.search-in') as HTMLElement).style.setProperty('outline', '4px solid #e59819', 'important');
+  showOutline(event) {
+    if (event.keyCode == 9) (document.querySelector('.search-in') as HTMLElement).style.setProperty('outline', '4px solid #e59819', 'important');
   }
 
   hideOutline() {
