@@ -92,7 +92,24 @@ input:focus
 .form-control
   height: 40px !important
 
+// New
+
+.btn-square
+  width: 40px
+  height: 40px
+  padding: 0 10px !important
+  font-size: 25px
+
 // Bootstrap
+
+.menu-opener, .close
+  @extend .btn
+
+.close
+  @extend .btn-square
+
+.smart-bar-container
+  @extend .alert-dismissible
 
 header
   @extend .container-fluid
@@ -115,6 +132,12 @@ header, .logo, .categories-link
 header, .smart-bar
   @extend .align-items-center
 
+.smart-bar-container
+  @extend .m-0
+
+.smart-bar-container
+  @extend .p-0
+
 header
   @extend .px-3
 
@@ -126,17 +149,3 @@ header
 
 header
   @extend .shadow-sm
-
-.menu-opener
-  @extend .btn
-
-.smart-bar-container
-  @extend .alert-dismissible, .m-0, .p-0
-
-// New
-
-.btn-square
-  width: 40px 
-  height: 40px
-  padding: 0 10px !important
-  font-size: 25px
