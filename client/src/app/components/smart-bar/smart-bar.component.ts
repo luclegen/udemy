@@ -31,6 +31,7 @@ export class SmartBarComponent implements OnInit {
       this.s = Math.floor((distance % (1000 * 60)) / 1000);
 
       if (distance < 0) {
+        (document.querySelector('.smart-bar') as HTMLElement).style.height = 'auto';
         this.expired = true;
         this.title = 'Anytime, anywhere';
         this.subtitle = 'Learn on your schedule from any device';

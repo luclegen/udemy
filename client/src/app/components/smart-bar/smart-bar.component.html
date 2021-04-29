@@ -1,5 +1,5 @@
-<aside *ngIf="h > -2 && m > -2 && s > -2" class="alert alert-dismissible m-0 p-0 smart-bar-container" role="alert" [ngClass]="{'alert-warning': !expired, 'alert-primary': expired}">
-  <div class="d-lg-flex flex-column py-3 pl-4 justify-content-center align-items-center smart-bar">
+<aside *ngIf="h > -2 && m > -2 && s > -2" class="alert smart-bar-container" role="alert" [ngClass]="{'alert-warning': !expired, 'alert-primary': expired}">
+  <div class="smart-bar">
     <span class="smart-bar-copy">
       <span class="smart-bar-title">
         {{title}}
