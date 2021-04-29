@@ -1,7 +1,11 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+
 $spacer: 16px
 $defalt-color: #1c1d1f
 $primary-color: #5624d0
 $secondary-color: #401b9c
+
+// Custom
 
 *:focus-visible
   outline: 4px solid #e59819 !important
@@ -66,12 +70,6 @@ input:focus
   &:hover
     background: $secondary-color !important
 
-.btn-square
-  width: 40px 
-  height: 40px
-  padding: 0 10px !important
-  font-size: 25px
-
 .close
   margin: 8px !important
 
@@ -93,3 +91,52 @@ input:focus
 
 .form-control
   height: 40px !important
+
+// Bootstrap
+
+header
+  @extend .container-fluid
+
+header, .logo, .categories-link
+  @extend .d-flex
+
+.smart-bar
+  @extend .d-lg-flex
+
+.smart-bar
+  @extend .flex-column
+
+.logo, .smart-bar
+  @extend .justify-content-center
+
+.categories-link
+  @extend .align-self-stretch
+
+header, .smart-bar
+  @extend .align-items-center
+
+header
+  @extend .px-3
+
+.smart-bar
+  @extend .py-3
+
+.smart-bar
+  @extend .pl-4
+
+header
+  @extend .shadow-sm
+
+.menu-opener
+  @extend .btn
+
+.smart-bar-container
+  @extend .alert-dismissible, .m-0, .p-0
+
+// New
+
+.btn-square
+  width: 40px 
+  height: 40px
+  padding: 0 10px !important
+  font-size: 25px
