@@ -7,27 +7,6 @@ $secondary-color: #401b9c
 
 // Custom
 
-*:focus-visible
-  outline: 4px solid #e59819 !important
-
-input:focus
-  outline: none !important
-
-.mx-6
-  margin-left: $spacer *.75
-  margin-right: $spacer *.75
-
-.my-6
-  margin-top: $spacer *.75
-  margin-bottom: $spacer *.75
-
-.px-6
-  padding-left: $spacer *.75
-  padding-right: $spacer *.75
-
-.pr-6
-  padding-right: $spacer *.75
-
 .alert
   border: none !important
 
@@ -94,6 +73,27 @@ input:focus
 
 // New
 
+*:focus-visible
+  outline: 4px solid #e59819 !important
+
+input:focus
+  outline: none !important
+
+.mx-6
+  margin-left: $spacer *.75
+  margin-right: $spacer *.75
+
+.my-6
+  margin-top: $spacer *.75
+  margin-bottom: $spacer *.75
+
+.px-6
+  padding-left: $spacer *.75
+  padding-right: $spacer *.75
+
+.pr-6
+  padding-right: $spacer *.75
+
 .btn-square
   width: 40px
   height: 40px
@@ -102,7 +102,7 @@ input:focus
 
 // Bootstrap
 
-.menu-opener, .close
+.menu-opener, .close, .search-btn
   @extend .btn
 
 .close
@@ -114,7 +114,10 @@ input:focus
 header
   @extend .container-fluid
 
-header, .logo, .categories-link
+.search-bar
+  @extend .flex-fill
+
+header, .logo, .categories-link, .search-bar, .business-link, .teach-link, .cart
   @extend .d-flex
 
 .smart-bar
@@ -126,14 +129,26 @@ header, .logo, .categories-link
 .logo, .smart-bar
   @extend .justify-content-center
 
-.categories-link
+.categories-link, .business-link, .teach-link, .cart
   @extend .align-self-stretch
 
 header, .smart-bar
   @extend .align-items-center
 
+.search-bar
+  @extend .border
+
+.search-bar
+  @extend .border-secondary
+
+.search-bar
+  @extend .rounded-pill
+
 .smart-bar-container
   @extend .m-0
+
+.header-login, .header-signup, .header-lang
+  @extend .ml-2
 
 .smart-bar-container
   @extend .p-0
@@ -146,6 +161,9 @@ header
 
 .smart-bar
   @extend .pl-4
+
+.search-bar
+  @extend .mx-6
 
 header
   @extend .shadow-sm
