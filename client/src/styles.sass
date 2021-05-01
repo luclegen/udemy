@@ -1,9 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
 
 $spacer: 16px
-$defalt-color: #1c1d1f
-$primary-color: #5624d0
-$secondary-color: #401b9c
+$defalt-color: #3c3b37
+$primary-color: #0f7c90
+$secondary-color: #094c59
 
 // Custom
 
@@ -38,7 +38,7 @@ $secondary-color: #401b9c
   display: flex !important
   justify-content: center !important
   align-items: center !important
-  border: 0 !important
+  border: none !important
   padding: 0 12px !important
 
 .btn-primary
@@ -61,8 +61,8 @@ $secondary-color: #401b9c
     color: $secondary-color !important
     background: none !important
 
-.btn-outline-dark
-  border: 1px solid black !important
+.btn-outline-secondary
+  border: 1px solid #989586 !important
 
   &:hover
     color: black !important
@@ -112,11 +112,14 @@ input:focus
 
 // Bootstrap
 
-.menu-opener, .close, .search-btn
+.menu-opener, .close, .search-btn, .btn-lang
   @extend .btn
 
-.close
+.close, .btn-lang
   @extend .btn-square
+
+.btn-lang
+  @extend .btn-outline-secondary
 
 .smart-bar-container
   @extend .alert-dismissible
@@ -178,5 +181,18 @@ header
 .search-bar
   @extend .mx-6
 
-.search-bar-btn
-  @extend .text-secondary
+// .search-bar-btn
+//   @extend .text-secondary
+
+.icon-link
+
+  i
+    color: #73726c
+
+    &:hover
+      color: $secondary-color
+
+.header-lang
+
+  i
+    @extend .text-secondary
