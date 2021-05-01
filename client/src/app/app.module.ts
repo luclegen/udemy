@@ -5,8 +5,6 @@ import { AppComponent } from './app.component';
 import { SmartBarComponent } from './components/smart-bar/smart-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 
-import { MatIconModule } from '@angular/material/icon';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,8 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
     HeaderComponent
   ],
   imports: [
-    BrowserModule,
-    MatIconModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
