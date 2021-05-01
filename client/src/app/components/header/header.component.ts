@@ -182,75 +182,324 @@ export class HeaderComponent implements OnInit {
       ] },
     ] },
     { name: 'Office Productivity', url: 'https://www.udemy.com/courses/office-productivity/', subs: [
-      { name: 'All Office Productivity', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Office Productivity', url: 'https://www.udemy.com/courses/office-productivity/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Microsoft', url: 'https://www.udemy.com/courses/office-productivity/microsoft/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Apple', url: 'https://www.udemy.com/courses/office-productivity/apple/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Google', url: 'https://www.udemy.com/courses/office-productivity/google/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'SAP', url: 'https://www.udemy.com/courses/office-productivity/sap/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Oracle', url: 'https://www.udemy.com/courses/office-productivity/oracle/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Office Productivity', url: 'https://www.udemy.com/courses/office-productivity/other-productivity/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Personal Development', url: 'https://www.udemy.com/courses/personal-development/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Personal Development', url: 'https://www.udemy.com/courses/personal-development/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Personal Transformation', url: 'https://www.udemy.com/courses/personal-development/personal-transformation/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Personal Productivity', url: 'https://www.udemy.com/courses/personal-development/productivity/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Leadership', url: 'https://www.udemy.com/courses/personal-development/leadership/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Career Development', url: 'https://www.udemy.com/courses/personal-development/career-development/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Parenting & Relationships', url: 'https://www.udemy.com/courses/personal-development/parenting-and-relationships/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Happiness', url: 'https://www.udemy.com/courses/personal-development/happiness/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Esoteric Practices', url: 'https://www.udemy.com/courses/lifestyle/esoteric-practices/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Religion & Spirituality', url: 'https://www.udemy.com/courses/personal-development/religion-and-spirituality/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Personal Brand Building', url: 'https://www.udemy.com/courses/personal-development/personal-brand-building/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Creativity', url: 'https://www.udemy.com/courses/personal-development/creativity/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Influence', url: 'https://www.udemy.com/courses/personal-development/influence/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Self Esteem & Confidence', url: 'https://www.udemy.com/courses/personal-development/self-esteem-and-confidence/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Stress Management', url: 'https://www.udemy.com/courses/personal-development/stress-management/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Memory & Study Skills', url: 'https://www.udemy.com/courses/personal-development/memory/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Motivation', url: 'https://www.udemy.com/courses/personal-development/motivation/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Personal Development', url: 'https://www.udemy.com/courses/personal-development/other-personal-development/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Design', url: 'https://www.udemy.com/courses/design/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Design', url: 'https://www.udemy.com/courses/design/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Web Design', url: 'https://www.udemy.com/courses/design/web-design/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Graphic Design & Illustration', url: 'https://www.udemy.com/courses/design/graphic-design-and-illustration/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Design Tools', url: 'https://www.udemy.com/courses/design/design-tools/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'User Experience Design', url: 'https://www.udemy.com/courses/design/user-experience/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Game Design', url: 'https://www.udemy.com/courses/design/game-design/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Design Thinking', url: 'https://www.udemy.com/courses/design/design-thinking/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: '3D & Animation', url: 'https://www.udemy.com/courses/design/3d-and-animation/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Fashion Design', url: 'https://www.udemy.com/courses/design/fashion/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Architectural Design', url: 'https://www.udemy.com/courses/design/architectural-design/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Interior Design', url: 'https://www.udemy.com/courses/design/interior-design/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Design', url: 'https://www.udemy.com/courses/design/other-design/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Marketing', url: 'https://www.udemy.com/courses/marketing/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Marketing', url: 'https://www.udemy.com/courses/marketing/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Digital Marketing', url: 'https://www.udemy.com/courses/marketing/digital-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Search Engine Optimization', url: 'https://www.udemy.com/courses/marketing/search-engine-optimization/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Social Media Marketing', url: 'https://www.udemy.com/courses/marketing/social-media-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Branding', url: 'https://www.udemy.com/courses/marketing/branding/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Marketing Fundamentals', url: 'https://www.udemy.com/courses/marketing/marketing-fundamentals/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Marketing Analytics & Automation', url: 'https://www.udemy.com/courses/marketing/analytics-and-automation/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Public Relations', url: 'https://www.udemy.com/courses/marketing/public-relations/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Advertising', url: 'https://www.udemy.com/courses/marketing/advertising/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Video & Mobile Marketing', url: 'https://www.udemy.com/courses/marketing/video-and-mobile-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Content Marketing', url: 'https://www.udemy.com/courses/marketing/content-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Growth Hacking', url: 'https://www.udemy.com/courses/marketing/growth-hacking/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Affiliate Marketing', url: 'https://www.udemy.com/courses/marketing/affiliate-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Product Marketing', url: 'https://www.udemy.com/courses/marketing/product-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Marketing', url: 'https://www.udemy.com/courses/marketing/other-marketing/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Lifestyle', url: 'https://www.udemy.com/courses/lifestyle/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Lifestyle', url: 'https://www.udemy.com/courses/lifestyle/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Arts & Crafts', url: 'https://www.udemy.com/courses/lifestyle/arts-and-crafts/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Beauty & Makeup', url: 'https://www.udemy.com/courses/lifestyle/beauty-and-makeup/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Esoteric Practices', url: 'https://www.udemy.com/courses/lifestyle/esoteric-practices/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Food & Beverage', url: 'https://www.udemy.com/courses/lifestyle/food-and-beverage/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Gaming', url: 'https://www.udemy.com/courses/lifestyle/gaming/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Home Improvement', url: 'https://www.udemy.com/courses/lifestyle/home-improvement/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Pet Care & Training', url: 'https://www.udemy.com/courses/lifestyle/pet-care-and-training/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Travel', url: 'https://www.udemy.com/courses/lifestyle/travel/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Lifestyle', url: 'https://www.udemy.com/courses/lifestyle/other-lifestyle/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Photography & Video', url: 'https://www.udemy.com/courses/photography-and-video/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Photography & Video', url: 'https://www.udemy.com/courses/photography-and-video/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Digital Photography', url: 'https://www.udemy.com/courses/photography-and-video/digital-photography/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Photography', url: 'https://www.udemy.com/courses/photography-and-video/photography-fundamentals/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Portrait Photography', url: 'https://www.udemy.com/courses/photography-and-video/portraits/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Photography Tools', url: 'https://www.udemy.com/courses/photography-and-video/photography-tools/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Commercial Photography', url: 'https://www.udemy.com/courses/photography-and-video/commercial-photography/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Video Design', url: 'https://www.udemy.com/courses/photography-and-video/video-design/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Photography & Video', url: 'https://www.udemy.com/courses/photography-and-video/other-photography-and-video/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Health & Fitness', url: 'https://www.udemy.com/courses/health-and-fitness/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Health & Fitness', url: 'https://www.udemy.com/courses/health-and-fitness/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Fitness', url: 'https://www.udemy.com/courses/health-and-fitness/fitness/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'General Health', url: 'https://www.udemy.com/courses/health-and-fitness/general-health/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Sports', url: 'https://www.udemy.com/courses/health-and-fitness/sports/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Nutrition', url: 'https://www.udemy.com/courses/health-and-fitness/nutrition/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Yoga', url: 'https://www.udemy.com/courses/health-and-fitness/yoga/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Mental Health', url: 'https://www.udemy.com/courses/health-and-fitness/mental-health/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Dieting', url: 'https://www.udemy.com/courses/health-and-fitness/dieting/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Self Defense', url: 'https://www.udemy.com/courses/health-and-fitness/self-defense/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Safety & First Aid', url: 'https://www.udemy.com/courses/health-and-fitness/safety-and-first-aid/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Dance', url: 'https://www.udemy.com/courses/health-and-fitness/dance/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Meditation', url: 'https://www.udemy.com/courses/health-and-fitness/meditation/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Health & Fitness', url: 'https://www.udemy.com/courses/health-and-fitness/other-health-and-fitness/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Music', url: 'https://www.udemy.com/courses/music/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Music', url: 'https://www.udemy.com/courses/music/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Instruments', url: 'https://www.udemy.com/courses/music/instruments/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Music Production', url: 'https://www.udemy.com/courses/music/production/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Music Fundamentals', url: 'https://www.udemy.com/courses/music/music-fundamentals/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Vocal', url: 'https://www.udemy.com/courses/music/vocal/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Music Techniques', url: 'https://www.udemy.com/courses/music/music-techniques/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Music Software', url: 'Music Software', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Music', url: 'https://www.udemy.com/courses/music/other-music/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
     { name: 'Teaching & Academics', url: 'https://www.udemy.com/courses/teaching-and-academics/', subs: [
-      { name: 'D1', link: 'd1', subs: [
-        { name: 'D12', link: 'd12' },
+      { name: 'All Teaching & Academics', url: 'https://www.udemy.com/courses/teaching-and-academics/', subs: [
+        { name: 'D12', url: 'd12' },
       ] },
-      { name: 'D2', link: 'd2', subs: [
-        { name: 'D21', link: 'd21' },
+      { name: 'Engineering', url: 'https://www.udemy.com/courses/teaching-and-academics/engineering/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Humanities', url: 'https://www.udemy.com/courses/teaching-and-academics/humanities/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Math', url: 'https://www.udemy.com/courses/teaching-and-academics/math/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Science', url: 'https://www.udemy.com/courses/teaching-and-academics/science/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Online Education', url: 'https://www.udemy.com/courses/teaching-and-academics/online-education/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Social Science', url: 'https://www.udemy.com/courses/teaching-and-academics/social-science/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Language', url: 'https://www.udemy.com/courses/teaching-and-academics/language/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Teacher Training', url: 'https://www.udemy.com/courses/teaching-and-academics/teacher-training/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Test Prep', url: 'https://www.udemy.com/courses/teaching-and-academics/test-prep/', subs: [
+        { name: 'D21', url: 'd21' },
+      ] },
+      { name: 'Other Teaching & Academics', url: 'https://www.udemy.com/courses/teaching-and-academics/other-teaching-academics/', subs: [
+        { name: 'D21', url: 'd21' },
       ] },
     ] },
   ];
