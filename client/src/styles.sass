@@ -71,6 +71,12 @@ $secondary-color: #401b9c
 .form-control
   height: 40px !important
 
+.close
+  opacity: 1 !important
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus
+  opacity: 1 !important
+
 // New
 
 *:focus-visible
@@ -98,7 +104,6 @@ input:focus
   width: 40px
   height: 40px
   padding: 0 10px !important
-  font-size: 25px
 
 .categories-link
 
@@ -172,3 +177,6 @@ header
 
 .search-bar
   @extend .mx-6
+
+.search-bar-btn
+  @extend .text-secondary
