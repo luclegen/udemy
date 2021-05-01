@@ -4,6 +4,7 @@ $spacer: 16px
 $defalt-color: #3c3b37
 $primary-color: #0f7c90
 $secondary-color: #094c59
+$icon-color: #73726c
 
 // Custom
 
@@ -187,10 +188,15 @@ header
 .icon-link
 
   i
-    color: #73726c
+    color: $icon-color
 
     &:hover
       color: $secondary-color
+
+.menu-opener, .search-btn
+
+  i
+    color: $icon-color
 
 .header-lang
 
