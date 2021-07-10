@@ -399,8 +399,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Finance Cert & Exam Prep', uri: 'https://www.udemy.com/courses/finance-and-accounting/finance-certification-and-exam-prep/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'CFA', uri: 'https://www.udemy.com/topic/cfa/' },
+            { name: 'Certified Management Accountant (CMA)', uri: 'https://www.udemy.com/topic/cma/' },
+            { name: 'Quantitative Finance', uri: 'https://www.udemy.com/topic/quantitative-finance/' },
+            { name: 'Financial Management', uri: 'https://www.udemy.com/topic/financial-management/' },
+            { name: 'ACCA', uri: 'https://www.udemy.com/topic/acca/' },
+            { name: 'Corporate Finance', uri: 'https://www.udemy.com/topic/corporate-finance/' },
+            { name: 'Stock Trading', uri: 'https://www.udemy.com/topic/stock-trading/' },
+            { name: 'Financial Markets', uri: 'https://www.udemy.com/topic/financial-market/' },
+            { name: 'ANBIMA Certification', uri: 'https://www.udemy.com/topic/anbima-certification/' },
           ]
         },
         {
