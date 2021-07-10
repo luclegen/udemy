@@ -631,7 +631,14 @@ export class HeaderComponent implements OnInit {
       name: 'Personal Development', uri: 'https://www.udemy.com/courses/personal-development/', subs: [
         {
           name: 'Personal Transformation', uri: 'https://www.udemy.com/courses/personal-development/personal-transformation/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Personal Development', uri: 'https://www.udemy.com/topic/personal-development/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
+            { name: 'Neuro-Linguistic Programming', uri: 'https://www.udemy.com/topic/neuro-linguistic-programming/' },
+            { name: 'Mindfulness', uri: 'https://www.udemy.com/topic/mindfulness/' },
+            { name: 'Life Purpose', uri: 'https://www.udemy.com/topic/life-purpose/' },
+            { name: 'Meditation', uri: 'https://www.udemy.com/topic/meditation/' },
+            { name: 'CBT', uri: 'https://www.udemy.com/topic/cbt/' },
+            { name: 'Goal Setting', uri: 'https://www.udemy.com/topic/goal-setting/' },
           ]
         },
         {
