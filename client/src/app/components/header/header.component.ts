@@ -643,7 +643,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Personal Productivity', uri: 'https://www.udemy.com/courses/personal-development/productivity/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Time Management', uri: 'https://www.udemy.com/topic/time-management/' },
+            { name: 'Notion Workspace', uri: 'https://www.udemy.com/topic/notion-workspace/' },
+            { name: 'Speed Reading', uri: 'https://www.udemy.com/topic/speed-reading/' },
+            { name: 'Focus Mastery', uri: 'https://www.udemy.com/topic/focus-mastery/' },
+            { name: 'Organization', uri: 'https://www.udemy.com/topic/organization/' },
+            { name: 'Goal Setting', uri: 'https://www.udemy.com/topic/goal-setting/' },
+            { name: 'Procrastination', uri: 'https://www.udemy.com/topic/procrastination/' },
+            { name: 'Habits', uri: 'https://www.udemy.com/topic/habits/' },
           ]
         },
         {
