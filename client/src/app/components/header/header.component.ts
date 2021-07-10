@@ -667,7 +667,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Career Development', uri: 'https://www.udemy.com/courses/personal-development/career-development/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Resume and CV Writing', uri: 'https://www.udemy.com/topic/resume/' },
+            { name: 'Interviewing Skills', uri: 'https://www.udemy.com/topic/interviewing-skills/' },
+            { name: 'Job Search', uri: 'https://www.udemy.com/topic/job-search/' },
+            { name: 'LinkedIn', uri: 'https://www.udemy.com/topic/linkedin/' },
+            { name: 'Personal Networking', uri: 'https://www.udemy.com/topic/personal-networking/' },
+            { name: 'Voice Acting', uri: 'https://www.udemy.com/topic/voice-acting/' },
+            { name: 'Business Communication', uri: 'https://www.udemy.com/topic/business-communication/' },
+            { name: 'Business Writing', uri: 'https://www.udemy.com/topic/business-writing/' },
           ]
         },
         {
