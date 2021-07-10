@@ -464,8 +464,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Finance & Accounting', uri: 'https://www.udemy.com/courses/finance-and-accounting/other-finance-and-accounting/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Technical Analysis', uri: 'https://www.udemy.com/topic/technical-analysis/' },
+            { name: 'PowerPoint', uri: 'https://www.udemy.com/topic/powerpoint/' },
+            { name: 'Stock Trading', uri: 'https://www.udemy.com/topic/stock-trading/' },
+            { name: 'Passive Income', uri: 'https://www.udemy.com/topic/passive-income/' },
+            { name: 'Financial Planning', uri: 'https://www.udemy.com/topic/financial-planning/' },
+            { name: 'Credit Repair', uri: 'https://www.udemy.com/topic/credit-repair/' },
+            { name: 'Coaching', uri: 'https://www.udemy.com/topic/coaching/' },
+            { name: 'SAP Financial Accounting', uri: 'https://www.udemy.com/topic/sap-financial-accounting/' },
+            { name: 'Personal Finance', uri: 'https://www.udemy.com/topic/personal-finance/' },
           ]
         },
       ]
