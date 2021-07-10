@@ -533,8 +533,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other IT & Software', uri: 'https://www.udemy.com/courses/it-and-software/other-it-and-software/', subs: [
-            { name: 'C41', uri: 'c41' },
-            { name: 'C42', uri: 'c42' },
+            { name: 'Python', uri: 'https://www.udemy.com/topic/python/' },
+            { name: 'Kubernetes', uri: 'https://www.udemy.com/topic/kubernetes/' },
+            { name: 'Docker', uri: 'https://www.udemy.com/topic/docker/' },
+            { name: 'DevOps', uri: 'https://www.udemy.com/topic/devops/' },
+            { name: 'Algorithms', uri: 'https://www.udemy.com/topic/algorithms/' },
+            { name: 'Ansible', uri: 'https://www.udemy.com/topic/ansible/' },
+            { name: 'Software Architecture', uri: 'https://www.udemy.com/topic/software-architecture/' },
+            { name: 'Java', uri: 'https://www.udemy.com/topic/java/' },
+            { name: 'React', uri: 'https://www.udemy.com/topic/react/' },
           ]
         },
       ]
