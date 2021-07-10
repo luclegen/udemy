@@ -293,7 +293,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Media', uri: 'https://www.udemy.com/courses/business/media/', subs: [
-            { name: 'B21', uri: 'b21' },
+            { name: 'Audiobook Creation', uri: 'https://www.udemy.com/topic/audiobook/' },
+            { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
+            { name: 'SEO', uri: 'https://www.udemy.com/topic/seo/' },
+            { name: 'Screenwriting', uri: 'https://www.udemy.com/topic/screenwriting/' },
+            { name: 'Journalism', uri: 'https://www.udemy.com/topic/journalism/' },
+            { name: 'Amazon Kindle Direct Publishing (KDP)', uri: 'https://www.udemy.com/topic/amazon-kindle/' },
+            { name: 'Podcasting', uri: 'https://www.udemy.com/topic/podcasting/' },
+            { name: 'After Effects', uri: 'https://www.udemy.com/topic/after-effects/' },
+            { name: 'Motion Graphics', uri: 'https://www.udemy.com/topic/motion-graphics/' },
           ]
         },
         {
