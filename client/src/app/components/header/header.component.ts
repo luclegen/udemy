@@ -318,7 +318,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Business', uri: 'https://www.udemy.com/courses/business/other-business/', subs: [
-            { name: 'B21', uri: 'b21' },
+            { name: 'QuickBooks Online', uri: 'https://www.udemy.com/topic/quickbooks-online/' },
+            { name: 'Grant Writing', uri: 'https://www.udemy.com/topic/grant-writing/' },
+            { name: 'Transcription', uri: 'https://www.udemy.com/topic/transcription/' },
+            { name: 'PowerPoint', uri: 'https://www.udemy.com/topic/powerpoint/' },
+            { name: 'Bitcoin', uri: 'https://www.udemy.com/topic/bitcoin/' },
+            { name: 'Freelance Writing', uri: 'https://www.udemy.com/topic/freelance-writing/' },
+            { name: 'Interviewing Skills', uri: 'https://www.udemy.com/topic/interviewing-skills/' },
+            { name: 'PMI-RMP', uri: 'https://www.udemy.com/topic/pmi-rmp/' },
+            { name: 'Fundraising', uri: 'https://www.udemy.com/topic/fundraising/' },
           ]
         },
       ]
