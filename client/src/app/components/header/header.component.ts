@@ -425,8 +425,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Investing & Trading', uri: 'https://www.udemy.com/courses/finance-and-accounting/investing-and-trading/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Stock Trading', uri: 'https://www.udemy.com/topic/stock-trading/' },
+            { name: 'Technical Analysis', uri: 'https://www.udemy.com/topic/technical-analysis/' },
+            { name: 'Investing', uri: 'https://www.udemy.com/topic/investing/' },
+            { name: 'Forex', uri: 'https://www.udemy.com/topic/forex/' },
+            { name: 'Day Trading', uri: 'https://www.udemy.com/topic/day-trading/' },
+            { name: 'Cryptocurrency', uri: 'https://www.udemy.com/topic/cryptocurrency/' },
+            { name: 'Algorithmic Trading', uri: 'https://www.udemy.com/topic/algorithmic-trading/' },
+            { name: 'Options Trading', uri: 'https://www.udemy.com/topic/options-trading/' },
+            { name: 'Financial Trading', uri: 'https://www.udemy.com/topic/financial-trading/' },
           ]
         },
         {
