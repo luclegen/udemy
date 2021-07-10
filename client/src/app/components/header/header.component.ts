@@ -679,7 +679,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Parenting & Relationships', uri: 'https://www.udemy.com/courses/personal-development/parenting-and-relationships/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Parenting', uri: 'https://www.udemy.com/topic/parenting/' },
+            { name: 'Relationship Building', uri: 'https://www.udemy.com/topic/relationship/' },
+            { name: 'Child Psychology', uri: 'https://www.udemy.com/topic/child-psychology/' },
+            { name: 'Love', uri: 'https://www.udemy.com/topic/love/' },
+            { name: 'Counseling', uri: 'https://www.udemy.com/topic/counseling/' },
+            { name: 'Early Childhood Education', uri: 'https://www.udemy.com/topic/early-childhood-education/' },
+            { name: 'Marriage', uri: 'https://www.udemy.com/topic/marriage/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
+            { name: 'Childhood Trauma Healing', uri: 'https://www.udemy.com/topic/childhood-trauma/' },
           ]
         },
         {
