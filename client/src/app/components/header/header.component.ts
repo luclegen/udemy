@@ -438,8 +438,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Money Management Tools', uri: 'https://www.udemy.com/courses/finance-and-accounting/money-management-tools/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'QuickBooks Online', uri: 'https://www.udemy.com/topic/quickbooks-online/' },
+            { name: 'QuickBooks', uri: 'https://www.udemy.com/topic/quickbooks/' },
+            { name: 'SAP FICO', uri: 'https://www.udemy.com/topic/fico/' },
+            { name: 'QuickBooks Pro', uri: 'https://www.udemy.com/topic/quickbooks-pro/' },
+            { name: 'Excel', uri: 'https://www.udemy.com/topic/excel/' },
+            { name: 'Bitcoin Trading', uri: 'https://www.udemy.com/topic/bitcoin-trading/' },
+            { name: 'Xero', uri: 'https://www.udemy.com/topic/xero/' },
+            { name: 'Excel Analytics', uri: 'https://www.udemy.com/topic/excel-analytics/' },
+            { name: 'Financial Analysis', uri: 'https://www.udemy.com/topic/financial-analysis/' },
           ]
         },
         {
