@@ -14,12 +14,12 @@ export class HeaderComponent implements OnInit {
           name: 'Web Development', uri: 'https://www.udemy.com/courses/development/web-development/', subs: [
             { name: 'JavaScript', uri: 'https://www.udemy.com/topic/javascript/' },
             { name: 'React', uri: 'https://www.udemy.com/topic/react/' },
-            { name: 'CSS', uri: 'https://www.udemy.com/topic/css/' },
             { name: 'Angular', uri: 'https://www.udemy.com/topic/angular/' },
+            { name: 'CSS', uri: 'https://www.udemy.com/topic/css/' },
+            { name: 'Django', uri: 'https://www.udemy.com/topic/django/' },
             { name: 'PHP', uri: 'https://www.udemy.com/topic/php/' },
             { name: 'Node.Js', uri: 'https://www.udemy.com/topic/nodejs/' },
             { name: 'WordPress', uri: 'https://www.udemy.com/topic/wordpress/' },
-            { name: 'Vue JS', uri: 'https://www.udemy.com/topic/vue-js/' },
           ]
         },
         {
@@ -30,8 +30,8 @@ export class HeaderComponent implements OnInit {
             { name: 'Data Analysis', uri: 'https://www.udemy.com/topic/data-analysis/' },
             { name: 'Artificial Intelligence', uri: 'https://www.udemy.com/topic/artificial-intelligence/' },
             { name: 'R (programming language)', uri: 'https://www.udemy.com/topic/r-programming-language/' },
-            { name: 'Statistics', uri: 'https://www.udemy.com/topic/statistics/' },
             { name: 'TensorFlow', uri: 'https://www.udemy.com/topic/tensorflow/' },
+            { name: 'Statistics', uri: 'https://www.udemy.com/topic/statistics/' },
           ]
         },
         {
@@ -67,9 +67,9 @@ export class HeaderComponent implements OnInit {
             { name: 'C#', uri: 'https://www.udemy.com/topic/c-sharp/' },
             { name: '3D Game Development', uri: 'https://www.udemy.com/topic/3d-game-development/' },
             { name: 'C++', uri: 'https://www.udemy.com/topic/c-plus-plus/' },
-            { name: '2D Game Development', uri: 'https://www.udemy.com/topic/2d-game-development/' },
             { name: 'Unreal Engine Blueprints', uri: 'https://www.udemy.com/topic/unreal-engine-blueprints/' },
-            { name: 'Blender', uri: 'https://www.udemy.com/topic/blender/' },
+            { name: '2D Game Development', uri: 'https://www.udemy.com/topic/2d-game-development/' },
+            { name: 'Mobile Game Development', uri: 'https://www.udemy.com/topic/mobile-game-development/' },
           ]
         },
         {
@@ -77,23 +77,23 @@ export class HeaderComponent implements OnInit {
             { name: 'SQL', uri: 'https://www.udemy.com/topic/sql/' },
             { name: 'MySQL', uri: 'https://www.udemy.com/topic/mysql/' },
             { name: 'Oracle SQL', uri: 'https://www.udemy.com/topic/oracle-sql/' },
+            { name: 'MongoDB', uri: 'https://www.udemy.com/topic/mongodb/' },
             { name: 'Apache Kafka', uri: 'https://www.udemy.com/topic/apache-kafka/' },
             { name: 'Oracle Certification', uri: 'https://www.udemy.com/topic/oracle-certification/' },
-            { name: 'MongoDB', uri: 'https://www.udemy.com/topic/mongodb/' },
             { name: 'SQL Server', uri: 'https://www.udemy.com/topic/sql-server/' },
             { name: 'Database Programming', uri: 'https://www.udemy.com/topic/database-programming/' },
-            { name: 'PostgreSQL', uri: 'https://www.udemy.com/topic/postgresql/' },
+            { name: 'Database Management', uri: 'https://www.udemy.com/topic/database-management/' },
           ]
         },
         {
           name: 'Software Testing', uri: 'https://www.udemy.com/courses/development/software-testing/', subs: [
             { name: 'Selenium WebDriver', uri: 'https://www.udemy.com/topic/selenium-webdriver/' },
-            { name: 'Selenium Testing Framework', uri: 'https://www.udemy.com/topic/selenium-testing-framework/' },
             { name: 'Java', uri: 'https://www.udemy.com/topic/java/' },
             { name: 'Automation Testing', uri: 'https://www.udemy.com/topic/api-testing/' },
+            { name: 'Selenium Testing Framework', uri: 'https://www.udemy.com/topic/selenium-testing-framework/' },
             { name: 'API Testing', uri: 'https://www.udemy.com/topic/api-testing/' },
-            { name: 'Cypress.io', uri: 'https://www.udemy.com/topic/cypressio/' },
             { name: 'REST Assured', uri: 'https://www.udemy.com/topic/rest-assured/' },
+            { name: 'Cypress.io', uri: 'https://www.udemy.com/topic/cypressio/' },
             { name: 'Appium', uri: 'https://www.udemy.com/topic/appium/' },
           ]
         },
@@ -101,38 +101,38 @@ export class HeaderComponent implements OnInit {
           name: 'Software Engineering', uri: 'https://www.udemy.com/courses/development/software-engineering/', subs: [
             { name: 'Coding Interview', uri: 'https://www.udemy.com/topic/coding-interview/' },
             { name: 'Data Structures', uri: 'https://www.udemy.com/topic/data-structures/' },
+            { name: 'Algorithms', uri: 'https://www.udemy.com/topic/algorithms/' },
+            { name: 'Microservices', uri: 'https://www.udemy.com/topic/microservices/' },
             { name: 'Kubernetes', uri: 'https://www.udemy.com/topic/kubernetes/' },
             { name: 'Certified Kubernetes Application Developer (CKAD)', uri: 'https://www.udemy.com/topic/certified-kubernetes-application-developer-ckad/' },
-            { name: 'Microservices', uri: 'https://www.udemy.com/topic/microservices/' },
-            { name: 'Algorithms', uri: 'https://www.udemy.com/topic/algorithms/' },
+            { name: 'Linux', uri: 'https://www.udemy.com/topic/linux/' },
             { name: 'Python', uri: 'https://www.udemy.com/topic/python/' },
-            { name: 'Spring Boot', uri: 'https://www.udemy.com/topic/spring-boot/' },
-            { name: 'Blockchain', uri: 'https://www.udemy.com/topic/blockchain/' },
+            { name: 'Apache Airflow', uri: 'https://www.udemy.com/topic/apache-airflow/' },
           ]
         },
         {
-          name: 'Development Tools', uri: 'https://www.udemy.com/courses/development/development-tools/', subs: [
-            { name: 'Git', uri: 'https://www.udemy.com/topic/git/' },
+          name: 'Software Development Tools', uri: 'https://www.udemy.com/courses/development/development-tools/', subs: [
             { name: 'Docker', uri: 'https://www.udemy.com/topic/docker/' },
-            { name: 'Kubernetes', uri: 'https://www.udemy.com/topic/kubernetes/' },
+            { name: 'Git', uri: 'https://www.udemy.com/topic/git/' },
             { name: 'DevOps', uri: 'https://www.udemy.com/topic/devops/' },
+            { name: 'Kubernetes', uri: 'https://www.udemy.com/topic/kubernetes/' },
             { name: 'Jenkins', uri: 'https://www.udemy.com/topic/jenkins/' },
             { name: 'JIRA', uri: 'https://www.udemy.com/topic/jira/' },
-            { name: 'AWS Certified Solutions Architect - Associate', uri: 'https://www.udemy.com/topic/aws-certified-solutions-architect-associate/' },
-            { name: 'Continuous Integration', uri: 'https://www.udemy.com/topic/continuous-integration/' },
             { name: 'Confluence', uri: 'https://www.udemy.com/topic/confluence/' },
+            { name: 'Continuous Integration', uri: 'https://www.udemy.com/topic/continuous-integration/' },
+            { name: 'Node.Js', uri: 'https://www.udemy.com/topic/nodejs/' },
           ]
         },
         {
           name: 'No-Code Development', uri: 'https://www.udemy.com/courses/development/no-code-development/', subs: [
-            { name: 'Elementor', uri: 'https://www.udemy.com/topic/elementor/' },
             { name: 'Artificial Intelligence', uri: 'https://www.udemy.com/topic/artificial-intelligence/' },
+            { name: 'Elementor', uri: 'https://www.udemy.com/topic/elementor/' },
             { name: 'Bubble Visual Programming', uri: 'https://www.udemy.com/topic/bubble-visual-programming/' },
             { name: 'Wix', uri: 'https://www.udemy.com/topic/wix/' },
             { name: 'WordPress', uri: 'https://www.udemy.com/topic/wordpress/' },
-            { name: 'Software Development', uri: 'https://www.udemy.com/topic/software-development/' },
+            { name: 'Machine Learning', uri: 'https://www.udemy.com/topic/software-development/' },
             { name: 'Microsoft PowerApps', uri: 'https://www.udemy.com/topic/microsoft-powerapps/' },
-            { name: 'Automation', uri: 'https://www.udemy.com/topic/automation/' },
+            { name: 'Software Development', uri: 'https://www.udemy.com/topic/software-development/' },
             { name: 'Web Design', uri: 'https://www.udemy.com/topic/web-design/' },
           ]
         },
@@ -145,16 +145,16 @@ export class HeaderComponent implements OnInit {
             { name: 'Business Fundamentals', uri: 'https://www.udemy.com/topic/business-fundamentals/' },
             { name: 'Entrepreneurship Fundamentals', uri: 'https://www.udemy.com/topic/entrepreneurship/' },
             { name: 'Business Strategy', uri: 'https://www.udemy.com/topic/business-strategy/' },
-            { name: 'Business Plan', uri: 'https://www.udemy.com/topic/business-plan/' },
             { name: 'Startup', uri: 'https://www.udemy.com/topic/startup/' },
             { name: 'Freelancing', uri: 'https://www.udemy.com/topic/freelancing/' },
+            { name: 'Business Plan', uri: 'https://www.udemy.com/topic/business-plan/' },
             { name: 'Online Business', uri: 'https://www.udemy.com/topic/online-business/' },
             { name: 'Blogging', uri: 'https://www.udemy.com/topic/blogging/' },
             { name: 'Home Business', uri: 'https://www.udemy.com/topic/home-business/' },
           ]
         },
         {
-          name: 'Communications', uri: 'https://www.udemy.com/courses/business/communications/', subs: [
+          name: 'Communication', uri: 'https://www.udemy.com/courses/business/communications/', subs: [
             { name: 'Communication Skills', uri: 'https://www.udemy.com/topic/communication-skills/' },
             { name: 'Presentation Skills', uri: 'https://www.udemy.com/topic/presentation-skills/' },
             { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
@@ -162,21 +162,21 @@ export class HeaderComponent implements OnInit {
             { name: 'Fiction Writing', uri: 'https://www.udemy.com/topic/fiction-writing/' },
             { name: 'Business Writing', uri: 'https://www.udemy.com/topic/business-writing/' },
             { name: 'Email Etiquette', uri: 'https://www.udemy.com/topic/email-etiquette/' },
+            { name: 'Storytelling', uri: 'https://www.udemy.com/topic/storytelling/' },
             { name: 'Business Communication', uri: 'https://www.udemy.com/topic/business-communication/' },
-            { name: 'Technical Writing', uri: 'https://www.udemy.com/topic/technical-writing/' },
           ]
         },
         {
           name: 'Management', uri: 'https://www.udemy.com/courses/business/management/', subs: [
             { name: 'Product Management', uri: 'https://www.udemy.com/topic/product-management/' },
             { name: 'Leadership', uri: 'https://www.udemy.com/topic/leadership/' },
-            { name: 'Management Skills', uri: 'https://www.udemy.com/topic/management-skills/' },
             { name: 'Business Strategy', uri: 'https://www.udemy.com/topic/business-strategy/' },
+            { name: 'Management Skills', uri: 'https://www.udemy.com/topic/management-skills/' },
             { name: 'ISO 9001', uri: 'https://www.udemy.com/topic/iso-9001/' },
             { name: 'Business Process Management', uri: 'https://www.udemy.com/topic/business-process-management/' },
-            { name: 'Risk Management', uri: 'https://www.udemy.com/topic/risk-management/' },
-            { name: 'Quality Management', uri: 'https://www.udemy.com/topic/quality-management/' },
             { name: 'Manager Training', uri: 'https://www.udemy.com/topic/manager-training/' },
+            { name: 'Quality Management', uri: 'https://www.udemy.com/topic/quality-management/' },
+            { name: 'Project Management', uri: 'https://www.udemy.com/topic/project-management/' },
           ]
         },
         {
@@ -184,24 +184,24 @@ export class HeaderComponent implements OnInit {
             { name: 'Sales Skills', uri: 'https://www.udemy.com/topic/sales-skills/' },
             { name: 'B2B Sales', uri: 'https://www.udemy.com/topic/b2b-sales/' },
             { name: 'LinkedIn', uri: 'https://www.udemy.com/topic/linkedin/' },
-            { name: 'Business Development', uri: 'https://www.udemy.com/topic/business-development/' },
             { name: 'Presentation Skills', uri: 'https://www.udemy.com/topic/presentation-skills/' },
             { name: 'Lead Generation', uri: 'https://www.udemy.com/topic/lead-generation/' },
+            { name: 'Business Development', uri: 'https://www.udemy.com/topic/business-development/' },
             { name: 'Customer Service', uri: 'https://www.udemy.com/topic/customer-service/' },
-            { name: 'Customer Success Management', uri: 'https://www.udemy.com/topic/customer-success/' },
             { name: 'Cold Email', uri: 'https://www.udemy.com/topic/cold-email/' },
+            { name: 'Customer Success Management', uri: 'https://www.udemy.com/topic/customer-success/' },
           ]
         },
         {
           name: 'Business Strategy', uri: 'https://www.udemy.com/courses/business/strategy/', subs: [
             { name: 'Digital Marketing', uri: 'https://www.udemy.com/topic/digital-marketing/' },
             { name: 'Management Consulting', uri: 'https://www.udemy.com/topic/management-consulting/' },
-            { name: 'Futures Trading', uri: 'https://www.udemy.com/topic/futures-trading/' },
-            { name: 'Google Ads (Adwords)', uri: 'https://www.udemy.com/topic/google-ads/' },
             { name: 'Business Model', uri: 'https://www.udemy.com/topic/business-model/' },
+            { name: 'Google Ads (Adwords)', uri: 'https://www.udemy.com/topic/google-ads/' },
+            { name: 'TOGAF 9 Foundation', uri: 'https://www.udemy.com/topic/togaf-9-foundation/' },
+            { name: 'Futures Trading', uri: 'https://www.udemy.com/topic/futures-trading/' },
             { name: 'Innovation', uri: 'https://www.udemy.com/topic/innovation/' },
             { name: 'Digital Transformation', uri: 'https://www.udemy.com/topic/digital-transformation-s/' },
-            { name: 'TOGAF 9 Foundation', uri: 'https://www.udemy.com/topic/togaf-9-foundation/' },
           ]
         },
         {
@@ -209,9 +209,9 @@ export class HeaderComponent implements OnInit {
             { name: 'Six Sigma', uri: 'https://www.udemy.com/topic/six-sigma/' },
             { name: 'Six Sigma Green Belt', uri: 'https://www.udemy.com/topic/six-sigma-green-belt/' },
             { name: 'Supply Chain', uri: 'https://www.udemy.com/topic/quality-management/' },
+            { name: 'Six Sigma Yellow Belt', uri: 'https://www.udemy.com/topic/six-sigma-yellow-belt/' },
             { name: 'Quality Management', uri: 'https://www.udemy.com/topic/quality-management/' },
             { name: 'Six Sigma Black Belt', uri: 'https://www.udemy.com/topic/six-sigma-black-belt/' },
-            { name: 'Six Sigma Yellow Belt', uri: 'https://www.udemy.com/topic/six-sigma-yellow-belt/' },
             { name: 'Lean', uri: 'https://www.udemy.com/topic/lean/' },
             { name: 'Robotic Process Automation', uri: 'https://www.udemy.com/topic/robotic-process-automation/' },
             { name: 'Six Sigma White Belt', uri: 'https://www.udemy.com/topic/six-sigma-white-belt/' },
@@ -226,7 +226,7 @@ export class HeaderComponent implements OnInit {
             { name: 'CAPM', uri: 'https://www.udemy.com/topic/capm/' },
             { name: 'PMI-ACP', uri: 'https://www.udemy.com/topic/pmi-acp/' },
             { name: 'Microsoft Project', uri: 'https://www.udemy.com/topic/microsoft-project/' },
-            { name: 'Risk Management', uri: 'https://www.udemy.com/topic/risk-management/' },
+            { name: 'Project Risk Management', uri: 'https://www.udemy.com/topic/project-risk-management/' },
           ]
         },
         {
@@ -234,11 +234,11 @@ export class HeaderComponent implements OnInit {
             { name: 'GDPR', uri: 'https://www.udemy.com/topic/gdpr/' },
             { name: 'Contract Law', uri: 'https://www.udemy.com/topic/contract-law/' },
             { name: 'Law', uri: 'https://www.udemy.com/topic/law/' },
-            { name: 'Medical Device Development', uri: 'https://www.udemy.com/topic/medical-device-development/' },
-            { name: 'LGPD Lei Geral de Proteção de Dados', uri: 'https://www.udemy.com/topic/lgpd-lei-geral-de-protecao-de-dados/' },
-            { name: 'Contract Management', uri: 'https://www.udemy.com/topic/contract-management/' },
             { name: 'Data Protection', uri: 'https://www.udemy.com/topic/data-protection/' },
-            { name: 'Healthcare IT', uri: 'https://www.udemy.com/topic/healthcare-it/' },
+            { name: 'Medical Device Development', uri: 'https://www.udemy.com/topic/medical-device-development/' },
+            { name: 'Contract Management', uri: 'https://www.udemy.com/topic/contract-management/' },
+            { name: 'LGPD Lei Geral de Proteção de Dados', uri: 'https://www.udemy.com/topic/lgpd-lei-geral-de-protecao-de-dados/' },
+            { name: 'Goods and Services Tax', uri: 'https://www.udemy.com/topic/goods-and-services-tax/' },
           ]
         },
         {
@@ -261,14 +261,22 @@ export class HeaderComponent implements OnInit {
             { name: 'Instructional Design', uri: 'https://www.udemy.com/topic/instructional-design/' },
             { name: 'Hiring', uri: 'https://www.udemy.com/topic/hiring/' },
             { name: 'Emotional Intelligence', uri: 'https://www.udemy.com/topic/emotional-intelligence/' },
-            { name: 'Diversity and Inclusion', uri: 'https://www.udemy.com/topic/diversity/' },
-            { name: 'Conflict Management', uri: 'https://www.udemy.com/topic/conflict-management/' },
             { name: 'Employment Law', uri: 'https://www.udemy.com/topic/employment-law/' },
+            { name: 'Conflict Management', uri: 'https://www.udemy.com/topic/conflict-management/' },
+            { name: 'Diversity and Inclusion', uri: 'https://www.udemy.com/topic/diversity/' },
           ]
         },
         {
           name: 'Industry', uri: 'https://www.udemy.com/courses/business/industry/', subs: [
-            { name: 'B21', uri: 'b21' },
+            { name: 'Piping', uri: 'https://www.udemy.com/topic/piping/' },
+            { name: 'EPLAN Electric P8', uri: 'https://www.udemy.com/topic/eplan-electric-p8/' },
+            { name: 'Freight Broker', uri: 'https://www.udemy.com/topic/freight-broker/' },
+            { name: 'Trucking', uri: 'https://www.udemy.com/topic/trucking/' },
+            { name: 'Electrical Engineering', uri: 'https://www.udemy.com/topic/electrical-engineering/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
+            { name: 'Chemical Engineering', uri: 'https://www.udemy.com/topic/chemical-engineering/' },
+            { name: 'Solar Energy', uri: 'https://www.udemy.com/topic/solar-energy/' },
+            { name: 'Salesforce', uri: 'https://www.udemy.com/topic/salesforce/' },
           ]
         },
         {
