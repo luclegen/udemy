@@ -507,8 +507,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Hardware', uri: 'https://www.udemy.com/courses/it-and-software/hardware/', subs: [
-            { name: 'C41', uri: 'c41' },
-            { name: 'C42', uri: 'c42' },
+            { name: 'PLC', uri: 'https://www.udemy.com/topic/plc/' },
+            { name: 'Arduino', uri: 'https://www.udemy.com/topic/arduino/' },
+            { name: 'Microcontroller', uri: 'https://www.udemy.com/topic/microcontroller/' },
+            { name: 'Electronics', uri: 'https://www.udemy.com/topic/electronics/' },
+            { name: 'Raspberry Pi', uri: 'https://www.udemy.com/topic/raspberry-pi/' },
+            { name: 'Embedded Systems', uri: 'https://www.udemy.com/topic/embedded-systems/' },
+            { name: 'Siemens TIA Portal', uri: 'https://www.udemy.com/topic/siemens-tia-portal/' },
+            { name: 'FPGA', uri: 'https://www.udemy.com/topic/fpga/' },
+            { name: 'Embedded C', uri: 'https://www.udemy.com/topic/embedded-c/' },
           ]
         },
         {
