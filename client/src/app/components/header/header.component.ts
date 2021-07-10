@@ -281,7 +281,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'E-Commerce', uri: 'https://www.udemy.com/courses/business/e-commerce/', subs: [
-            { name: 'B21', uri: 'b21' },
+            { name: 'Amazon FBA', uri: 'https://www.udemy.com/topic/amazon-fba/' },
+            { name: 'Dropshipping', uri: 'https://www.udemy.com/topic/dropshipping/' },
+            { name: 'Shopify', uri: 'https://www.udemy.com/topic/shopify/' },
+            { name: 'Shopify Dropshipping', uri: 'https://www.udemy.com/topic/shopify-dropshipping/' },
+            { name: 'Selling on Amazon', uri: 'https://www.udemy.com/topic/selling-on-amazon/' },
+            { name: 'Passive Income', uri: 'https://www.udemy.com/topic/passive-income/' },
+            { name: 'WooCommerce', uri: 'https://www.udemy.com/topic/woocommerce/' },
+            { name: 'Online Business', uri: 'https://www.udemy.com/topic/online-business/' },
           ]
         },
         {
