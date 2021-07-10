@@ -519,9 +519,16 @@ export class HeaderComponent implements OnInit {
           ]
         },
         {
-          name: 'Operating Systems', uri: 'https://www.udemy.com/courses/it-and-software/operating-systems/', subs: [
-            { name: 'C41', uri: 'c41' },
-            { name: 'C42', uri: 'c42' },
+          name: 'Operating Systems & Servers', uri: 'https://www.udemy.com/courses/it-and-software/operating-systems/', subs: [
+            { name: 'Linux', uri: 'https://www.udemy.com/topic/linux/' },
+            { name: 'Linux Administration', uri: 'https://www.udemy.com/topic/linux-administration/' },
+            { name: 'Windows Server', uri: 'https://www.udemy.com/topic/windows-server/' },
+            { name: 'Shell Scripting', uri: 'https://www.udemy.com/topic/shell-scripting/' },
+            { name: 'Active Directory', uri: 'https://www.udemy.com/topic/active-directory/' },
+            { name: 'PowerShell', uri: 'https://www.udemy.com/topic/powershell/' },
+            { name: 'Linux Command Line', uri: 'https://www.udemy.com/topic/linux-command-line/' },
+            { name: 'VMware Vsphere', uri: 'https://www.udemy.com/topic/vmware-vsphere/' },
+            { name: 'LPIC-1: Linux Administrator', uri: 'https://www.udemy.com/topic/lpic-1-linux-administrator/' },
           ]
         },
         {
