@@ -550,7 +550,15 @@ export class HeaderComponent implements OnInit {
       name: 'Office Productivity', uri: 'https://www.udemy.com/courses/office-productivity/', subs: [
         {
           name: 'Microsoft', uri: 'https://www.udemy.com/courses/office-productivity/microsoft/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Excel', uri: 'https://www.udemy.com/topic/excel/' },
+            { name: 'Excel VBA', uri: 'https://www.udemy.com/topic/excel-vba/' },
+            { name: 'Excel Formulas and Functions', uri: 'https://www.udemy.com/topic/excel-formulas-and-functions/' },
+            { name: 'PowerPoint', uri: 'https://www.udemy.com/topic/powerpoint/' },
+            { name: 'Data Analysis', uri: 'https://www.udemy.com/topic/data-analysis/' },
+            { name: 'Microsoft Power BI', uri: 'https://www.udemy.com/topic/microsoft-power-bi/' },
+            { name: 'Microsoft Office', uri: 'https://www.udemy.com/topic/microsoft-office/' },
+            { name: 'Pivot Tables', uri: 'https://www.udemy.com/topic/pivot-tables/' },
+            { name: 'Microsoft Word', uri: 'https://www.udemy.com/topic/microsoft-word/' },
           ]
         },
         {
