@@ -601,7 +601,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Oracle', uri: 'https://www.udemy.com/courses/office-productivity/oracle/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Oracle SQL', uri: 'https://www.udemy.com/topic/oracle-sql/' },
+            { name: 'Oracle Database', uri: 'https://www.udemy.com/topic/oracle-database/' },
+            { name: 'Pl/SQL', uri: 'https://www.udemy.com/topic/plsql/' },
+            { name: 'Database Administration', uri: 'https://www.udemy.com/topic/database-administration/' },
+            { name: 'Oracle Fusion HCM', uri: 'https://www.udemy.com/topic/oracle-fusion-hcm/' },
+            { name: 'SQL', uri: 'https://www.udemy.com/topic/sql/' },
+            { name: 'Oracle Primavera', uri: 'https://www.udemy.com/topic/oracle-primavera/' },
+            { name: 'Oracle Data Integrator', uri: 'https://www.udemy.com/topic/oracle-data-integrator/' },
+            { name: 'Oracle Business Intelligence', uri: 'https://www.udemy.com/topic/oracle-business-intelligence/' },
           ]
         },
         {
