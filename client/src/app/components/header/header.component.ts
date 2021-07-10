@@ -481,8 +481,15 @@ export class HeaderComponent implements OnInit {
       name: 'IT & Software', uri: 'https://www.udemy.com/courses/it-and-software/', subs: [
         {
           name: 'IT Certification', uri: 'https://www.udemy.com/courses/it-and-software/it-certification/', subs: [
-            { name: 'C21', uri: 'c21' },
-            { name: 'C22', uri: 'c22' },
+            { name: 'AWS Certification', uri: 'https://www.udemy.com/topic/aws-certification/' },
+            { name: 'Microsoft Certification', uri: 'https://www.udemy.com/topic/microsoft-certification/' },
+            { name: 'AWS Certified Solutions Architect - Associate', uri: 'https://www.udemy.com/topic/aws-certified-solutions-architect-associate/' },
+            { name: 'AWS Certified Cloud Practitioner', uri: 'https://www.udemy.com/topic/aws-certified-cloud-practitioner/' },
+            { name: 'CompTIA A+', uri: 'https://www.udemy.com/topic/comptia-a/' },
+            { name: 'Amazon AWS', uri: 'https://www.udemy.com/topic/amazon-aws/' },
+            { name: 'Cisco CCNA', uri: 'https://www.udemy.com/topic/cisco-ccna/' },
+            { name: 'CompTIA Security+', uri: 'https://www.udemy.com/topic/comptia-security/' },
+            { name: 'Microsoft AZ-900', uri: 'https://www.udemy.com/topic/microsoft-az-900/' },
           ]
         },
         {
