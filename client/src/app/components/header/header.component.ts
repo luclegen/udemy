@@ -655,7 +655,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Leadership', uri: 'https://www.udemy.com/courses/personal-development/leadership/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Management Skills', uri: 'https://www.udemy.com/topic/management-skills/' },
+            { name: 'Manager Training', uri: 'https://www.udemy.com/topic/management-skills/' },
+            { name: 'Communication Skills', uri: 'https://www.udemy.com/topic/communication-skills/' },
+            { name: 'Public Speaking', uri: 'https://www.udemy.com/topic/public-speaking/' },
+            { name: 'Conflict Management', uri: 'https://www.udemy.com/topic/conflict-management/' },
+            { name: 'Relationship Building', uri: 'https://www.udemy.com/topic/relationship/' },
+            { name: 'Listening Skills', uri: 'https://www.udemy.com/topic/listening-skills/' },
+            { name: 'Emotional Intelligence', uri: 'https://www.udemy.com/topic/emotional-intelligence/' },
           ]
         },
         {
