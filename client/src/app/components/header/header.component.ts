@@ -576,7 +576,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Google', uri: 'https://www.udemy.com/courses/office-productivity/google/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Google Sheets', uri: 'https://www.udemy.com/topic/google-sheets/' },
+            { name: 'Google Workspace (G Suite)', uri: 'https://www.udemy.com/topic/g-suite/' },
+            { name: 'Google Drive', uri: 'https://www.udemy.com/topic/google-drive/' },
+            { name: 'Google Apps', uri: 'https://www.udemy.com/topic/google-apps/' },
+            { name: 'Google Data Studio', uri: 'https://www.udemy.com/topic/google-data-studio/' },
+            { name: 'Gmail Productivity', uri: 'https://www.udemy.com/topic/gmail-productivity/' },
+            { name: 'Excel', uri: 'https://www.udemy.com/topic/excel/' },
+            { name: 'Google Office', uri: 'https://www.udemy.com/topic/google-office/' },
+            { name: 'Google Forms', uri: 'https://www.udemy.com/topic/google-forms/' },
           ]
         },
         {
