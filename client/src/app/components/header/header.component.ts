@@ -335,8 +335,15 @@ export class HeaderComponent implements OnInit {
       name: 'Finance & Accounting', uri: 'https://www.udemy.com/courses/finance-and-accounting/', subs: [
         {
           name: 'Accounting & Bookkeeping', uri: 'https://www.udemy.com/courses/finance-and-accounting/accounting-bookkeeping/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Accounting', uri: 'https://www.udemy.com/topic/accounting/' },
+            { name: 'Bookkeeping', uri: 'https://www.udemy.com/topic/bookkeeping/' },
+            { name: 'Financial Accounting', uri: 'https://www.udemy.com/topic/financial-accounting/' },
+            { name: 'Finance Fundamentals', uri: 'https://www.udemy.com/topic/finance/' },
+            { name: 'QuickBooks Online', uri: 'https://www.udemy.com/topic/quickbooks-online/' },
+            { name: 'Tally.ERP', uri: 'https://www.udemy.com/topic/tally-erp/' },
+            { name: 'Financial Statement', uri: 'https://www.udemy.com/topic/financial-statement/' },
+            { name: 'Xero', uri: 'https://www.udemy.com/topic/xero/' },
+            { name: 'SAP FICO', uri: 'https://www.udemy.com/topic/fico/' },
           ]
         },
         {
