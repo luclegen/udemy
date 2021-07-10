@@ -589,7 +589,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'SAP', uri: 'https://www.udemy.com/courses/office-productivity/sap/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'SAP S/4HANA', uri: 'https://www.udemy.com/topic/sap-s4hana/' },
+            { name: 'SAP MM', uri: 'https://www.udemy.com/topic/sap-mm/' },
+            { name: 'SAP ABAP', uri: 'https://www.udemy.com/topic/sap-abap/' },
+            { name: 'SAP SD', uri: 'https://www.udemy.com/topic/sap-sd/' },
+            { name: 'SAP Financial Accounting', uri: 'https://www.udemy.com/topic/sap-financial-accounting/' },
+            { name: 'SAP HCM', uri: 'https://www.udemy.com/topic/sap-hcm/' },
+            { name: 'Logistics Management', uri: 'https://www.udemy.com/topic/logistics-management/' },
+            { name: 'B2B Sales', uri: 'https://www.udemy.com/topic/b2b-sales/' },
           ]
         },
         {
