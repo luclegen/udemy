@@ -374,8 +374,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Economics', uri: 'https://www.udemy.com/courses/finance-and-accounting/economics/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Microeconomics', uri: 'https://www.udemy.com/topic/microeconomics/' },
+            { name: 'Stata', uri: 'https://www.udemy.com/topic/stata/' },
+            { name: 'Macroeconomics', uri: 'https://www.udemy.com/topic/macroeconomics/' },
+            { name: 'Finance Fundamentals', uri: 'https://www.udemy.com/topic/finance/' },
+            { name: 'Entrepreneurship Fundamentals', uri: 'https://www.udemy.com/topic/entrepreneurship/' },
+            { name: 'Regression Analysis', uri: 'https://www.udemy.com/topic/regression-analysis/' },
+            { name: 'Econometrics', uri: 'https://www.udemy.com/topic/econometrics/' },
+            { name: 'Data Visualization', uri: 'https://www.udemy.com/topic/econometrics/' },
           ]
         },
         {
