@@ -386,8 +386,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Finance', uri: 'https://www.udemy.com/courses/finance-and-accounting/finance-management/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Personal Finance', uri: 'https://www.udemy.com/topic/personal-finance/' },
+            { name: 'Investment Banking', uri: 'https://www.udemy.com/topic/investment-banking/' },
+            { name: 'CFA', uri: 'https://www.udemy.com/topic/cfa/' },
+            { name: 'Finance Fundamentals', uri: 'https://www.udemy.com/topic/finance/' },
+            { name: 'Banking', uri: 'https://www.udemy.com/topic/banking/' },
+            { name: 'Financial Management', uri: 'https://www.udemy.com/topic/financial-management/' },
+            { name: 'Corporate Finance', uri: 'https://www.udemy.com/topic/corporate-finance/' },
+            { name: 'Financial Analysis', uri: 'https://www.udemy.com/topic/financial-analysis/' },
+            { name: 'Private Equity', uri: 'https://www.udemy.com/topic/private-equity/' },
           ]
         },
         {
