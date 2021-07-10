@@ -614,7 +614,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Office Productivity', uri: 'https://www.udemy.com/courses/office-productivity/other-productivity/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'ServiceNow', uri: 'https://www.udemy.com/topic/servicenow/' },
+            { name: 'Typing', uri: 'https://www.udemy.com/topic/typing/' },
+            { name: 'QuickBooks Pro', uri: 'https://www.udemy.com/topic/quickbooks-pro/' },
+            { name: 'Time Management', uri: 'https://www.udemy.com/topic/time-management/' },
+            { name: 'Python', uri: 'https://www.udemy.com/topic/python/' },
+            { name: 'Office Productivity', uri: 'https://www.udemy.com/topic/office-productivity/' },
+            { name: 'Construction Estimation', uri: 'https://www.udemy.com/topic/construction-estimation/' },
+            { name: 'QuickBooks', uri: 'https://www.udemy.com/topic/quickbooks/' },
+            { name: 'Salesforce', uri: 'https://www.udemy.com/topic/salesforce/' },
           ]
         },
       ]
