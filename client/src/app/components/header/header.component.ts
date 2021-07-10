@@ -451,8 +451,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Taxes', uri: 'https://www.udemy.com/courses/finance-and-accounting/taxes/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Tax Preparation', uri: 'https://www.udemy.com/topic/tax-preparation/' },
+            { name: 'Accounting', uri: 'https://www.udemy.com/topic/accounting/' },
+            { name: 'Goods and Services Tax', uri: 'https://www.udemy.com/topic/goods-and-services-tax/' },
+            { name: 'Home Business', uri: 'https://www.udemy.com/topic/home-business/' },
+            { name: 'Value Added Tax (VAT)', uri: 'https://www.udemy.com/topic/value-added-tax-vat/' },
+            { name: 'QuickBooks Online', uri: 'https://www.udemy.com/topic/quickbooks-online/' },
+            { name: 'Financial Accounting', uri: 'https://www.udemy.com/topic/financial-accounting/' },
+            { name: 'Entrepreneurship Fundamentals', uri: 'https://www.udemy.com/topic/entrepreneurship/' },
+            { name: 'Excel Analytics', uri: 'https://www.udemy.com/topic/excel-analytics/' },
           ]
         },
         {
