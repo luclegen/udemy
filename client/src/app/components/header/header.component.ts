@@ -563,7 +563,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Apple', uri: 'https://www.udemy.com/courses/office-productivity/apple/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'iMovie', uri: 'https://www.udemy.com/topic/imovie/' },
+            { name: 'Mac Basics', uri: 'https://www.udemy.com/topic/mac-basics/' },
+            { name: 'macOS', uri: 'https://www.udemy.com/topic/macos/' },
+            { name: 'Numbers For Mac', uri: 'https://www.udemy.com/topic/numbers-for-mac/' },
+            { name: 'Apple Keynote', uri: 'https://www.udemy.com/topic/apple-keynote/' },
+            { name: 'Mac Pages', uri: 'https://www.udemy.com/topic/mac-pages/' },
+            { name: 'Microsoft Word', uri: 'https://www.udemy.com/topic/microsoft-word/' },
+            { name: 'Excel Dashboard', uri: 'https://www.udemy.com/topic/excel-dashboard/' },
+            { name: 'Microsoft Office 365', uri: 'https://www.udemy.com/topic/microsoft-office-365/' },
           ]
         },
         {
