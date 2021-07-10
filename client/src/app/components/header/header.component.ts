@@ -494,8 +494,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Network & Security', uri: 'https://www.udemy.com/courses/it-and-software/network-and-security/', subs: [
-            { name: 'C31', uri: 'c31' },
-            { name: 'C32', uri: 'c32' },
+            { name: 'Ethical Hacking', uri: 'https://www.udemy.com/topic/ethical-hacking/' },
+            { name: 'Cyber Security', uri: 'https://www.udemy.com/topic/cyber-security/' },
+            { name: 'Network Security', uri: 'https://www.udemy.com/topic/network-security/' },
+            { name: 'IT Networking Fundamentals', uri: 'https://www.udemy.com/topic/it-networking-fundamentals/' },
+            { name: 'Penetration Testing', uri: 'https://www.udemy.com/topic/penetration-testing/' },
+            { name: 'CompTIA Network+', uri: 'https://www.udemy.com/topic/comptia-network/' },
+            { name: 'Cisco CCNA', uri: 'https://www.udemy.com/topic/cisco-ccna/' },
+            { name: 'CompTIA Security+', uri: 'https://www.udemy.com/topic/comptia-security/' },
+            { name: 'Kubernetes', uri: 'https://www.udemy.com/topic/kubernetes/' },
           ]
         },
         {
