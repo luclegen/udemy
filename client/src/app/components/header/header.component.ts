@@ -306,7 +306,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Real Estate', uri: 'https://www.udemy.com/courses/business/real-estate/', subs: [
-            { name: 'B21', uri: 'b21' },
+            { name: 'Real Estate Investing', uri: 'https://www.udemy.com/topic/real-estate-investing/' },
+            { name: 'Mortgage', uri: 'https://www.udemy.com/topic/mortgage/' },
+            { name: 'Airbnb Hosting', uri: 'https://www.udemy.com/topic/airbnb-hosting/' },
+            { name: 'Construction', uri: 'https://www.udemy.com/topic/construction/' },
+            { name: 'Financial Modeling', uri: 'https://www.udemy.com/topic/financial-modeling/' },
+            { name: 'Real Estate Marketing', uri: 'https://www.udemy.com/topic/real-estate-marketing/' },
+            { name: 'Property Management', uri: 'https://www.udemy.com/topic/property-management-i/' },
+            { name: 'Real Estate Flipping', uri: 'https://www.udemy.com/topic/real-estate-flipping/' },
           ]
         },
         {
