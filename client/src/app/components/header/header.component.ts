@@ -348,14 +348,28 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Compliance', uri: 'https://www.udemy.com/courses/finance-and-accounting/compliance/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Anti-Money Laundering', uri: 'https://www.udemy.com/topic/anti-money-laundering/' },
+            { name: 'Risk Management', uri: 'https://www.udemy.com/topic/risk-management/' },
+            { name: 'Sarbanes-Oxley (SOX)', uri: 'https://www.udemy.com/topic/sarbanes-oxley/' },
+            { name: 'CAMS Certification', uri: 'https://www.udemy.com/topic/cams-certification/' },
+            { name: 'Internal Auditing', uri: 'https://www.udemy.com/topic/internal-auditing/' },
+            { name: 'Trade and Commerce', uri: 'https://www.udemy.com/topic/internal-auditing/' },
+            { name: 'Accounting', uri: 'https://www.udemy.com/topic/accounting/' },
+            { name: 'Financial Risk Manager (FRM)', uri: 'https://www.udemy.com/topic/financial-risk-manager-frm/' },
+            { name: 'IFRS', uri: 'https://www.udemy.com/topic/ifrs/' },
           ]
         },
         {
           name: 'Cryptocurrency & Blockchain', uri: 'https://www.udemy.com/courses/finance-and-accounting/cryptocurrency-and-blockchain/', subs: [
-            { name: 'C11', uri: 'c11' },
-            { name: 'C12', uri: 'c12' },
+            { name: 'Cryptocurrency', uri: 'https://www.udemy.com/topic/cryptocurrency/' },
+            { name: 'Bitcoin', uri: 'https://www.udemy.com/topic/bitcoin/' },
+            { name: 'Blockchain', uri: 'https://www.udemy.com/topic/blockchain/' },
+            { name: 'Personal Finance', uri: 'https://www.udemy.com/topic/personal-finance/' },
+            { name: 'Day Trading', uri: 'https://www.udemy.com/topic/day-trading/' },
+            { name: 'NFT (Non-Fungible Tokens)', uri: 'https://www.udemy.com/topic/nft-non-fungible-tokens/' },
+            { name: 'Algorithmic Trading', uri: 'https://www.udemy.com/topic/algorithmic-trading/' },
+            { name: 'Bitcoin Trading', uri: 'https://www.udemy.com/topic/bitcoin-trading/' },
+            { name: 'Technical Analysis', uri: 'https://www.udemy.com/topic/technical-analysis/' },
           ]
         },
         {
