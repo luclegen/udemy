@@ -717,7 +717,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Religion & Spirituality', uri: 'https://www.udemy.com/courses/personal-development/religion-and-spirituality/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Spirituality', uri: 'https://www.udemy.com/topic/spirituality/' },
+            { name: 'Mindfulness', uri: 'https://www.udemy.com/topic/mindfulness/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
+            { name: 'Tarot Reading', uri: 'https://www.udemy.com/topic/tarot-reading/' },
+            { name: 'Spiritual Healing', uri: 'https://www.udemy.com/topic/spiritual-healing/' },
+            { name: 'Meditation', uri: 'https://www.udemy.com/topic/meditation/' },
+            { name: 'Akashic Records', uri: 'https://www.udemy.com/topic/akashic-records/' },
+            { name: 'Numerology', uri: 'https://www.udemy.com/topic/numerology/' },
+            { name: 'Oracle Card Reading', uri: 'https://www.udemy.com/topic/oracle-card-reading/' },
           ]
         },
         {
