@@ -793,7 +793,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Memory & Study Skills', uri: 'https://www.udemy.com/courses/personal-development/memory/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Memory', uri: 'https://www.udemy.com/topic/memory/' },
+            { name: 'Speed Reading', uri: 'https://www.udemy.com/topic/speed-reading/' },
+            { name: 'Learning Strategies', uri: 'https://www.udemy.com/topic/learning-strategies/' },
+            { name: 'Study Skills', uri: 'https://www.udemy.com/topic/study-skills/' },
+            { name: 'Focus Mastery', uri: 'https://www.udemy.com/topic/focus-mastery/' },
+            { name: 'Mind Mapping', uri: 'https://www.udemy.com/topic/mind-mapping/' },
+            { name: 'Learning Disability', uri: 'https://www.udemy.com/topic/learning-disability/' },
+            { name: 'Personal Development', uri: 'https://www.udemy.com/topic/personal-development/' },
+            { name: 'Personal Productivity', uri: 'https://www.udemy.com/topic/personal-productivity/' },
           ]
         },
         {
