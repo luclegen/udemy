@@ -860,7 +860,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Design Tools', uri: 'https://www.udemy.com/courses/design/design-tools/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Photoshop', uri: 'https://www.udemy.com/topic/photoshop/' },
+            { name: 'After Effects', uri: 'https://www.udemy.com/topic/after-effects/' },
+            { name: 'AutoCAD', uri: 'https://www.udemy.com/topic/autocad/' },
+            { name: 'Procreate Digital Illustration App', uri: 'https://www.udemy.com/topic/procreate-ipad-app/' },
+            { name: 'Adobe Illustrator', uri: 'https://www.udemy.com/topic/adobe-illustrator/' },
+            { name: 'Adobe Premiere', uri: 'https://www.udemy.com/topic/adobe-premiere/' },
+            { name: 'Digital Art', uri: 'https://www.udemy.com/topic/digital-art/' },
+            { name: 'Affinity Designer', uri: 'https://www.udemy.com/topic/affinity-designer/' },
+            { name: 'SOLIDWORKS', uri: 'https://www.udemy.com/topic/solidworks/' },
           ]
         },
         {
