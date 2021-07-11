@@ -768,7 +768,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Self Esteem & Confidence', uri: 'https://www.udemy.com/courses/personal-development/self-esteem-and-confidence/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Confidence', uri: 'https://www.udemy.com/topic/confidence/' },
+            { name: 'Self-Esteem', uri: 'https://www.udemy.com/topic/self-esteem/' },
+            { name: 'Fashion', uri: 'https://www.udemy.com/topic/fashion/' },
+            { name: 'Communication Skills', uri: 'https://www.udemy.com/topic/communication-skills/' },
+            { name: 'Personal Development', uri: 'https://www.udemy.com/topic/personal-development/' },
+            { name: 'Art for Kids', uri: 'https://www.udemy.com/topic/art-for-kids/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Social Skills', uri: 'https://www.udemy.com/topic/social-skills/' },
+            { name: 'Neuro-Linguistic Programming', uri: 'https://www.udemy.com/topic/neuro-linguistic-programming/' },
           ]
         },
         {
