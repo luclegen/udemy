@@ -818,7 +818,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Personal Development', uri: 'https://www.udemy.com/courses/personal-development/other-personal-development/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Freight Broker', uri: 'https://www.udemy.com/topic/freight-broker/' },
+            { name: 'American Accent', uri: 'https://www.udemy.com/topic/american-accent/' },
+            { name: 'Car Repair', uri: 'https://www.udemy.com/topic/car-repair/' },
+            { name: 'English Pronunciation', uri: 'https://www.udemy.com/topic/english-pronunciation/' },
+            { name: 'French Language', uri: 'https://www.udemy.com/topic/french-language/' },
+            { name: 'Handwriting Analysis', uri: 'https://www.udemy.com/topic/handwriting-analysis/' },
+            { name: 'Contract Law', uri: 'https://www.udemy.com/topic/contract-law/' },
+            { name: 'Public Speaking', uri: 'https://www.udemy.com/topic/public-speaking/' },
+            { name: 'Meditation', uri: 'https://www.udemy.com/topic/meditation/' },
           ]
         },
       ]
