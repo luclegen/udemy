@@ -730,7 +730,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Personal Brand Building', uri: 'https://www.udemy.com/courses/personal-development/personal-brand-building/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Personal Branding', uri: 'https://www.udemy.com/topic/personal-branding/' },
+            { name: 'LinkedIn', uri: 'https://www.udemy.com/topic/linkedin/' },
+            { name: 'Business Communication', uri: 'https://www.udemy.com/topic/business-communication/' },
+            { name: 'Body Language', uri: 'https://www.udemy.com/topic/body-language/' },
+            { name: 'Meetings', uri: 'https://www.udemy.com/topic/meetings/' },
+            { name: 'Writing a Book', uri: 'https://www.udemy.com/topic/writing-a-book/' },
+            { name: 'Communication Skills', uri: 'https://www.udemy.com/topic/communication-skills/' },
+            { name: 'Digital Marketing', uri: 'https://www.udemy.com/topic/digital-marketing/' },
+            { name: 'Voice Training', uri: 'https://www.udemy.com/topic/voice-training/' },
           ]
         },
         {
