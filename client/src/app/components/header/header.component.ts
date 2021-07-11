@@ -897,7 +897,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Design Thinking', uri: 'https://www.udemy.com/courses/design/design-thinking/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Anime', uri: 'https://www.udemy.com/topic/anime/' },
+            { name: 'User Experience Design', uri: 'https://www.udemy.com/topic/user-experience-design/' },
+            { name: 'SOLIDWORKS', uri: 'https://www.udemy.com/topic/solidworks/' },
+            { name: 'Digital Painting', uri: 'https://www.udemy.com/topic/digital-painting/' },
+            { name: 'Gamification', uri: 'https://www.udemy.com/topic/gamification/' },
+            { name: 'VLSI', uri: 'https://www.udemy.com/topic/vlsi/' },
+            { name: 'Design Pattern', uri: 'https://www.udemy.com/topic/design-pattern/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
           ]
         },
         {
