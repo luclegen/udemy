@@ -743,7 +743,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Creativity', uri: 'https://www.udemy.com/courses/personal-development/creativity/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Creative Writing', uri: 'https://www.udemy.com/topic/creative-writing/' },
+            { name: 'Screenwriting', uri: 'https://www.udemy.com/topic/screenwriting/' },
+            { name: 'Art Therapy', uri: 'https://www.udemy.com/topic/art-therapy/' },
+            { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
+            { name: 'Writing a Book', uri: 'https://www.udemy.com/topic/writing-a-book/' },
+            { name: 'Storytelling', uri: 'https://www.udemy.com/topic/storytelling/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Aromatherapy', uri: 'https://www.udemy.com/topic/aromatherapy/' },
           ]
         },
         {
