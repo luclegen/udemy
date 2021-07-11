@@ -1025,7 +1025,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Marketing Fundamentals', uri: 'https://www.udemy.com/courses/marketing/marketing-fundamentals/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Copywriting', uri: 'https://www.udemy.com/topic/copywriting/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'Marketing Management', uri: 'https://www.udemy.com/topic/marketing-management/' },
+            { name: 'Event Planning', uri: 'https://www.udemy.com/topic/event-planning/' },
+            { name: 'Marketing Analytics', uri: 'https://www.udemy.com/topic/marketing-analytics/' },
+            { name: 'Neuromarketing', uri: 'https://www.udemy.com/topic/neuromarketing/' },
+            { name: 'Marketing Plan', uri: 'https://www.udemy.com/topic/marketing-plan/' },
+            { name: 'Marketing Psychology', uri: 'https://www.udemy.com/topic/marketing-psychology/' },
+            { name: 'Sales Skills', uri: 'https://www.udemy.com/topic/sales-skills/' },
           ]
         },
         {
