@@ -958,7 +958,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Design', uri: 'https://www.udemy.com/courses/design/other-design/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Character Design', uri: 'https://www.udemy.com/topic/character-design/' },
+            { name: 'Electronics', uri: 'https://www.udemy.com/topic/electronics/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Circuit Design', uri: 'https://www.udemy.com/topic/circuit-design/' },
+            { name: 'Comic Book Creation', uri: 'https://www.udemy.com/topic/comic-book-creation/' },
+            { name: 'Perspective Drawing', uri: 'https://www.udemy.com/topic/perspective-drawing/' },
+            { name: 'Digital Painting', uri: 'https://www.udemy.com/topic/digital-painting/' },
+            { name: 'Portraiture', uri: 'https://www.udemy.com/topic/portraiture/' },
+            { name: 'Geometric Dimensioning and Tolerancing (GD&T)', uri: 'https://www.udemy.com/topic/geometric-dimensioning-and-tolerancing-gdt/' },
           ]
         },
       ]
