@@ -806,7 +806,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Motivation', uri: 'https://www.udemy.com/courses/personal-development/motivation/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Neuroplasticity', uri: 'https://www.udemy.com/topic/neuroplasticity/' },
+            { name: 'Procrastination', uri: 'https://www.udemy.com/topic/procrastination/' },
+            { name: 'Neuro-Linguistic Programming', uri: 'https://www.udemy.com/topic/neuro-linguistic-programming/' },
+            { name: 'Personal Success', uri: 'https://www.udemy.com/topic/personal-success/' },
+            { name: 'Goal Setting', uri: 'https://www.udemy.com/topic/goal-setting/' },
+            { name: 'Neuroscience', uri: 'https://www.udemy.com/topic/neuroscience/' },
+            { name: 'Habits', uri: 'https://www.udemy.com/topic/habits/' },
+            { name: 'Confidence', uri: 'https://www.udemy.com/topic/confidence/' },
           ]
         },
         {
