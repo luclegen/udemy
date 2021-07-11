@@ -922,12 +922,26 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Fashion Design', uri: 'https://www.udemy.com/courses/design/fashion/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Fashion', uri: 'https://www.udemy.com/topic/fashion/' },
+            { name: 'Sewing', uri: 'https://www.udemy.com/topic/sewing/' },
+            { name: 'Adobe Illustrator', uri: 'https://www.udemy.com/topic/adobe-illustrator/' },
+            { name: 'Jewelry Design', uri: 'https://www.udemy.com/topic/jewelry-design/' },
+            { name: 'Photoshop', uri: 'https://www.udemy.com/topic/photoshop/' },
+            { name: 'T-Shirt Design', uri: 'https://www.udemy.com/topic/t-shirt-design/' },
+            { name: 'Anime', uri: 'https://www.udemy.com/topic/anime/' },
+            { name: 'Jewelry Making', uri: 'https://www.udemy.com/topic/jewelry-making/' },
           ]
         },
         {
           name: 'Architectural Design', uri: 'https://www.udemy.com/courses/design/architectural-design/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'AutoCAD', uri: 'https://www.udemy.com/topic/autocad/' },
+            { name: 'Revit', uri: 'https://www.udemy.com/topic/revit/' },
+            { name: 'Blender', uri: 'https://www.udemy.com/topic/blender/' },
+            { name: 'SketchUp', uri: 'https://www.udemy.com/topic/sketchup/' },
+            { name: 'ARCHICAD', uri: 'https://www.udemy.com/topic/archicad/' },
+            { name: '3D Animation', uri: 'https://www.udemy.com/topic/3d-animation/' },
+            { name: 'LEED', uri: 'https://www.udemy.com/topic/leed/' },
+            { name: 'Landscape Architecture', uri: 'https://www.udemy.com/topic/landscape-architecture/' },
           ]
         },
         {
