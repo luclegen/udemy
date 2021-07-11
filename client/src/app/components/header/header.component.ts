@@ -885,7 +885,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Game Design', uri: 'https://www.udemy.com/courses/design/game-design/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Unreal Engine', uri: 'https://www.udemy.com/topic/unreal-engine/' },
+            { name: 'Pixel Art', uri: 'https://www.udemy.com/topic/pixel-art/' },
+            { name: 'Unity', uri: 'https://www.udemy.com/topic/unity/' },
+            { name: 'Game Development Fundamentals', uri: 'https://www.udemy.com/topic/game-development/' },
+            { name: 'Digital Painting', uri: 'https://www.udemy.com/topic/digital-painting/' },
+            { name: 'Blender', uri: 'https://www.udemy.com/topic/blender/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Level Design', uri: 'https://www.udemy.com/topic/level-design/' },
           ]
         },
         {
