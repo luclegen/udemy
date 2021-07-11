@@ -1051,7 +1051,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Public Relations', uri: 'https://www.udemy.com/courses/marketing/public-relations/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Communication Skills', uri: 'https://www.udemy.com/topic/communication-skills/' },
+            { name: 'Media Training', uri: 'https://www.udemy.com/topic/media-training/' },
+            { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
+            { name: 'Business Communication', uri: 'https://www.udemy.com/topic/business-communication/' },
+            { name: 'Podcasting', uri: 'https://www.udemy.com/topic/podcasting/' },
+            { name: 'Public Speaking', uri: 'https://www.udemy.com/topic/public-speaking/' },
+            { name: 'Startup', uri: 'https://www.udemy.com/topic/startup/' },
+            { name: 'Event Planning', uri: 'https://www.udemy.com/topic/event-planning/' },
           ]
         },
         {
