@@ -987,7 +987,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Search Engine Optimization', uri: 'https://www.udemy.com/courses/marketing/search-engine-optimization/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'SEO', uri: 'https://www.udemy.com/topic/seo/' },
+            { name: 'WordPress', uri: 'https://www.udemy.com/topic/wordpress/' },
+            { name: 'Keyword Research', uri: 'https://www.udemy.com/topic/keyword-research/' },
+            { name: 'SEO Audit', uri: 'https://www.udemy.com/topic/seo-audit/' },
+            { name: 'Local SEO', uri: 'https://www.udemy.com/topic/local-seo/' },
+            { name: 'Google my Business', uri: 'https://www.udemy.com/topic/google-my-business/' },
+            { name: 'Link Building', uri: 'https://www.udemy.com/topic/link-building/' },
+            { name: 'Google Search Console', uri: 'https://www.udemy.com/topic/google-search-console/' },
+            { name: 'Google Ads (Adwords)', uri: 'https://www.udemy.com/topic/google-ads/' },
           ]
         },
         {
