@@ -1012,7 +1012,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Branding', uri: 'https://www.udemy.com/courses/marketing/branding/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Business Branding', uri: 'https://www.udemy.com/topic/business-branding/' },
+            { name: 'YouTube Audience Growth', uri: 'https://www.udemy.com/topic/business-branding/' },
+            { name: 'YouTube Marketing', uri: 'https://www.udemy.com/topic/youtube-marketing/' },
+            { name: 'Personal Branding', uri: 'https://www.udemy.com/topic/personal-branding/' },
+            { name: 'Brand Management', uri: 'https://www.udemy.com/topic/brand-management/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'Canva', uri: 'https://www.udemy.com/topic/canva/' },
+            { name: 'Customer Service', uri: 'https://www.udemy.com/topic/customer-service/' },
+            { name: 'Graphic Design', uri: 'https://www.udemy.com/topic/graphic-design/' },
           ]
         },
         {
