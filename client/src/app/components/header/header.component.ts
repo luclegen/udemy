@@ -781,7 +781,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Stress Management', uri: 'https://www.udemy.com/courses/personal-development/stress-management/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Anger Management', uri: 'https://www.udemy.com/topic/anger-management/' },
+            { name: 'Emotional Intelligence', uri: 'https://www.udemy.com/topic/emotional-intelligence/' },
+            { name: 'Anxiety Management', uri: 'https://www.udemy.com/topic/anxiety-management/' },
+            { name: 'EFT (Emotional FreedomTechnique)', uri: 'https://www.udemy.com/topic/eft/' },
+            { name: 'Resilience', uri: 'https://www.udemy.com/topic/resilience/' },
+            { name: 'Mindfulness', uri: 'https://www.udemy.com/topic/mindfulness/' },
+            { name: 'Meditation', uri: 'https://www.udemy.com/topic/meditation/' },
+            { name: 'Ayurveda', uri: 'https://www.udemy.com/topic/ayurvedic-medicine/' },
           ]
         },
         {
