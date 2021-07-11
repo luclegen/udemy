@@ -1038,7 +1038,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Marketing Analytics & Automation', uri: 'https://www.udemy.com/courses/marketing/analytics-and-automation/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Google Analytics', uri: 'https://www.udemy.com/topic/google-analytics/' },
+            { name: 'Google Analytics Individual Qualification (IQ)', uri: 'https://www.udemy.com/topic/google-analytics-individual-qualification-iq/' },
+            { name: 'Data Analysis', uri: 'https://www.udemy.com/topic/data-analysis/' },
+            { name: 'Marketing Analytics', uri: 'https://www.udemy.com/topic/marketing-analytics/' },
+            { name: 'Google Tag Manager', uri: 'https://www.udemy.com/topic/google-tag-manager/' },
+            { name: 'SQL', uri: 'https://www.udemy.com/topic/sql/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'Google Analytics Reports', uri: 'https://www.udemy.com/topic/google-analytics-reports/' },
+            { name: 'Marketing Automation', uri: 'https://www.udemy.com/topic/marketing-automation/' },
           ]
         },
         {
