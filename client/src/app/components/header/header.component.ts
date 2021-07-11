@@ -975,7 +975,14 @@ export class HeaderComponent implements OnInit {
       name: 'Marketing', uri: 'https://www.udemy.com/courses/marketing/', subs: [
         {
           name: 'Digital Marketing', uri: 'https://www.udemy.com/courses/marketing/digital-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Google Ads (Adwords)', uri: 'https://www.udemy.com/topic/google-ads/' },
+            { name: 'Social Media Marketing', uri: 'https://www.udemy.com/topic/social-media-marketing/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'Google Ads (AdWords) Certification', uri: 'https://www.udemy.com/topic/google-ads-certification/' },
+            { name: 'Internet Marketing', uri: 'https://www.udemy.com/topic/internet-marketing/' },
+            { name: 'YouTube Marketing', uri: 'https://www.udemy.com/topic/youtube-marketing/' },
+            { name: 'Email Marketing', uri: 'https://www.udemy.com/topic/email-marketing/' },
+            { name: 'Google Analytics', uri: 'https://www.udemy.com/topic/google-analytics/' },
           ]
         },
         {
