@@ -1000,7 +1000,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Social Media Marketing', uri: 'https://www.udemy.com/courses/marketing/social-media-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Instagram Marketing', uri: 'https://www.udemy.com/topic/instagram-marketing/' },
+            { name: 'Facebook Ads', uri: 'https://www.udemy.com/topic/facebook-ads/' },
+            { name: 'Facebook Marketing', uri: 'https://www.udemy.com/topic/facebook-ads/' },
+            { name: 'PPC Advertising', uri: 'https://www.udemy.com/topic/ppc-advertising/' },
+            { name: 'Social Media Management', uri: 'https://www.udemy.com/topic/social-media-management/' },
+            { name: 'TikTok Marketing', uri: 'https://www.udemy.com/topic/tiktok-marketing/' },
+            { name: 'LinkedIn', uri: 'https://www.udemy.com/topic/linkedin/' },
+            { name: 'Pinterest Marketing', uri: 'https://www.udemy.com/topic/pinterest-marketing/' },
           ]
         },
         {
