@@ -873,7 +873,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'User Experience Design', uri: 'https://www.udemy.com/courses/design/user-experience/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'User Interface', uri: 'https://www.udemy.com/topic/user-interface/' },
+            { name: 'Adobe XD', uri: 'https://www.udemy.com/topic/adobe-xd/' },
+            { name: 'Figma', uri: 'https://www.udemy.com/topic/figma/' },
+            { name: 'Web Design', uri: 'https://www.udemy.com/topic/web-design/' },
+            { name: 'Product Design', uri: 'https://www.udemy.com/topic/product-design/' },
+            { name: 'Mobile App Design', uri: 'https://www.udemy.com/topic/mobile-app-design/' },
+            { name: 'Usability Testing', uri: 'https://www.udemy.com/topic/usability-testing/' },
+            { name: 'Web Accessibility', uri: 'https://www.udemy.com/topic/web-accessibility/' },
           ]
         },
         {
