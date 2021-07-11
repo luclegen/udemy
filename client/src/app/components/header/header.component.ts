@@ -909,7 +909,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: '3D & Animation', uri: 'https://www.udemy.com/courses/design/3d-and-animation/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Blender', uri: 'https://www.udemy.com/topic/blender/' },
+            { name: '3D Modeling', uri: 'https://www.udemy.com/topic/3d-modeling/' },
+            { name: 'After Effects', uri: 'https://www.udemy.com/topic/after-effects/' },
+            { name: 'Motion Graphics', uri: 'https://www.udemy.com/topic/motion-graphics/' },
+            { name: '3D Animation', uri: 'https://www.udemy.com/topic/3d-animation/' },
+            { name: 'zBrush', uri: 'https://www.udemy.com/topic/zbrush/' },
+            { name: 'Character Design', uri: 'https://www.udemy.com/topic/character-design/' },
+            { name: 'Fusion 360', uri: 'https://www.udemy.com/topic/fusion-360/' },
+            { name: 'Animation', uri: 'https://www.udemy.com/topic/animation/' },
           ]
         },
         {
