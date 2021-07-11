@@ -946,7 +946,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Interior Design', uri: 'https://www.udemy.com/courses/design/interior-design/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'SketchUp', uri: 'https://www.udemy.com/topic/sketchup/' },
+            { name: 'Color Theory', uri: 'https://www.udemy.com/topic/color-theory/' },
+            { name: 'HVAC', uri: 'https://www.udemy.com/topic/hvac/' },
+            { name: 'Lighting Design', uri: 'https://www.udemy.com/topic/lighting-design/' },
+            { name: 'Minimalist Lifestyle', uri: 'https://www.udemy.com/topic/minimalist-lifestyle/' },
+            { name: 'Blender', uri: 'https://www.udemy.com/topic/blender/' },
+            { name: '3ds Max', uri: 'https://www.udemy.com/topic/3ds-max/' },
+            { name: 'Electrical Design', uri: 'https://www.udemy.com/topic/electrical-design/' },
           ]
         },
         {
