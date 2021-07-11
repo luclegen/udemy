@@ -847,7 +847,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Graphic Design & Illustration', uri: 'https://www.udemy.com/courses/design/graphic-design-and-illustration/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Graphic Design', uri: 'https://www.udemy.com/topic/graphic-design/' },
+            { name: 'Photoshop', uri: 'https://www.udemy.com/topic/photoshop/' },
+            { name: 'Adobe Illustrator', uri: 'https://www.udemy.com/topic/adobe-illustrator/' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Digital Painting', uri: 'https://www.udemy.com/topic/digital-painting/' },
+            { name: 'InDesign', uri: 'https://www.udemy.com/topic/indesign/' },
+            { name: 'Canva', uri: 'https://www.udemy.com/topic/canva/' },
+            { name: 'Character Design', uri: 'https://www.udemy.com/topic/character-design/' },
+            { name: 'Design Theory', uri: 'https://www.udemy.com/topic/design-theory/' },
           ]
         },
         {
