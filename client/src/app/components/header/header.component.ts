@@ -704,7 +704,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Esoteric Practices', uri: 'https://www.udemy.com/courses/lifestyle/esoteric-practices/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Reiki', uri: 'https://www.udemy.com/topic/reiki/' },
+            { name: 'Energy Healing', uri: 'https://www.udemy.com/topic/energy-healing/' },
+            { name: 'Tarot Reading', uri: 'https://www.udemy.com/topic/tarot-reading/' },
+            { name: 'Psychic', uri: 'https://www.udemy.com/topic/psychic/' },
+            { name: 'Hypnotherapy', uri: 'https://www.udemy.com/topic/hypnotherapy/' },
+            { name: 'Crystal Energy', uri: 'https://www.udemy.com/topic/crystal-energy/' },
+            { name: 'Chakra', uri: 'https://www.udemy.com/topic/chakra/' },
+            { name: 'Shamanism', uri: 'https://www.udemy.com/topic/shamanism/' },
+            { name: 'Spiritual Healing', uri: 'https://www.udemy.com/topic/spiritual-healing/' },
           ]
         },
         {
