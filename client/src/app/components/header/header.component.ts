@@ -1245,7 +1245,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Travel', uri: 'https://www.udemy.com/courses/lifestyle/travel/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Digital Nomad', uri: 'https://www.udemy.com/topic/digital-nomad/' },
+            { name: 'Travel Tips', uri: 'https://www.udemy.com/topic/travel-tips/' },
+            { name: 'Airbnb Hosting', uri: 'https://www.udemy.com/topic/airbnb-hosting/' },
+            { name: 'Travel Writing', uri: 'https://www.udemy.com/topic/airbnb-hosting/' },
+            { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
+            { name: 'Travel Hacking', uri: 'https://www.udemy.com/topic/travel-hacking/' },
+            { name: 'Journaling', uri: 'https://www.udemy.com/topic/journaling/' },
+            { name: 'Survival Skills', uri: 'https://www.udemy.com/topic/survival-skills/' },
+            { name: 'iMovie', uri: 'https://www.udemy.com/topic/imovie/' },
           ]
         },
         {
