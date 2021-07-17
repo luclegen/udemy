@@ -1076,7 +1076,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Video & Mobile Marketing', uri: 'https://www.udemy.com/courses/marketing/video-and-mobile-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'YouTube Marketing', uri: 'https://www.udemy.com/topic/youtube-marketing/' },
+            { name: 'YouTube Audience Growth', uri: 'https://www.udemy.com/topic/youtube-audience-growth/' },
+            { name: 'Video Creation', uri: 'https://www.udemy.com/topic/video-creation/' },
+            { name: 'PowerPoint', uri: 'https://www.udemy.com/topic/powerpoint/' },
+            { name: 'Video Editing', uri: 'https://www.udemy.com/topic/video-editing/' },
+            { name: 'Video Marketing', uri: 'https://www.udemy.com/topic/video-marketing/' },
+            { name: 'App Marketing', uri: 'https://www.udemy.com/topic/app-marketing/' },
+            { name: 'App Store Optimization', uri: 'https://www.udemy.com/topic/app-store-optimization/' },
+            { name: 'Live Streaming', uri: 'https://www.udemy.com/topic/live-streaming/' },
           ]
         },
         {
