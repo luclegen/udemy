@@ -1155,7 +1155,15 @@ export class HeaderComponent implements OnInit {
       name: 'Lifestyle', uri: 'https://www.udemy.com/courses/lifestyle/', subs: [
         {
           name: 'Arts & Crafts', uri: 'https://www.udemy.com/courses/lifestyle/arts-and-crafts/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Drawing', uri: 'https://www.udemy.com/topic/drawing/' },
+            { name: 'Watercolor Painting', uri: 'https://www.udemy.com/topic/watercolor-painting/' },
+            { name: 'Sketching', uri: 'https://www.udemy.com/topic/sketching/' },
+            { name: 'Painting', uri: 'https://www.udemy.com/topic/painting/' },
+            { name: 'Portraiture', uri: 'https://www.udemy.com/topic/portraiture/' },
+            { name: 'Pencil Drawing', uri: 'https://www.udemy.com/topic/pencil-drawing/' },
+            { name: 'Figure Drawing', uri: 'https://www.udemy.com/topic/figure-drawing/' },
+            { name: 'Procreate Digital Illustration App', uri: 'https://www.udemy.com/topic/procreate-ipad-app/' },
+            { name: 'Acrylic Painting', uri: 'https://www.udemy.com/topic/acrylic-painting/' },
           ]
         },
         {
