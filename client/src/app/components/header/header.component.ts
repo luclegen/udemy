@@ -1125,7 +1125,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Product Marketing', uri: 'https://www.udemy.com/courses/marketing/product-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Marketing Plan', uri: 'https://www.udemy.com/topic/marketing-plan/' },
+            { name: 'Facebook Ads', uri: 'https://www.udemy.com/topic/facebook-ads/' },
+            { name: 'Amazon Kindle Direct Publishing (KDP)', uri: 'https://www.udemy.com/topic/amazon-kindle/' },
+            { name: 'Self-Publishing', uri: 'https://www.udemy.com/topic/self-publishing/' },
+            { name: 'Product Management', uri: 'https://www.udemy.com/topic/product-management/' },
+            { name: 'SaaS', uri: 'https://www.udemy.com/topic/saas/' },
+            { name: 'Voice-Over', uri: 'https://www.udemy.com/topic/voice-over/' },
+            { name: 'Marketing Management', uri: 'https://www.udemy.com/topic/marketing-management/' },
+            { name: 'Amazon PPC Advertising', uri: 'https://www.udemy.com/topic/amazon-ppc-advertising/' },
           ]
         },
         {
