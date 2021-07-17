@@ -1089,7 +1089,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Content Marketing', uri: 'https://www.udemy.com/courses/marketing/content-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Copywriting', uri: 'https://www.udemy.com/topic/copywriting/' },
+            { name: 'Blogging', uri: 'https://www.udemy.com/topic/blogging/' },
+            { name: 'Content Writing', uri: 'https://www.udemy.com/topic/content-writing/' },
+            { name: 'Writing', uri: 'https://www.udemy.com/topic/writing/' },
+            { name: 'Content Creation', uri: 'https://www.udemy.com/topic/content-creation/' },
+            { name: 'YouTube Marketing', uri: 'https://www.udemy.com/topic/youtube-marketing/' },
+            { name: 'Business Writing', uri: 'https://www.udemy.com/topic/business-writing/' },
+            { name: 'WordPress', uri: 'https://www.udemy.com/topic/wordpress/' },
           ]
         },
         {
