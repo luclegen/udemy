@@ -1232,7 +1232,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Pet Care & Training', uri: 'https://www.udemy.com/courses/lifestyle/pet-care-and-training/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Dog Training', uri: 'https://www.udemy.com/topic/dog-training/' },
+            { name: 'Dog Behavior', uri: 'https://www.udemy.com/topic/dog-behavior/' },
+            { name: 'Dog Care', uri: 'https://www.udemy.com/topic/dog-care/' },
+            { name: 'Pet Training', uri: 'https://www.udemy.com/topic/pet-training/' },
+            { name: 'Horsemanship', uri: 'https://www.udemy.com/topic/horsemanship/' },
+            { name: 'Pet Care', uri: 'https://www.udemy.com/topic/pet-care/' },
+            { name: 'Animal Nutrition', uri: 'https://www.udemy.com/topic/animal-nutrition/' },
+            { name: 'Cat Behavior', uri: 'https://www.udemy.com/topic/cat-behavior/' },
+            { name: 'Acupuncture', uri: 'https://www.udemy.com/topic/acupuncture/' },
           ]
         },
         {
