@@ -1207,7 +1207,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Gaming', uri: 'https://www.udemy.com/courses/lifestyle/gaming/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Chess', uri: 'https://www.udemy.com/topic/chess/' },
+            { name: 'Poker', uri: 'https://www.udemy.com/topic/poker/' },
+            { name: 'eSports', uri: 'https://www.udemy.com/topic/esports/' },
+            { name: 'Twitch', uri: 'https://www.udemy.com/topic/twitch/' },
+            { name: 'Open Broadcaster', uri: 'https://www.udemy.com/topic/open-broadcaster/' },
+            { name: 'League of Legends', uri: 'https://www.udemy.com/topic/league-of-legends/' },
+            { name: 'Live Streaming', uri: 'https://www.udemy.com/topic/live-streaming/' },
+            { name: 'Rubik\'s Cube', uri: 'https://www.udemy.com/topic/rubiks-cube/' },
           ]
         },
         {
