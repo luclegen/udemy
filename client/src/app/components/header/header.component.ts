@@ -1275,7 +1275,14 @@ export class HeaderComponent implements OnInit {
       name: 'Photography & Video', uri: 'https://www.udemy.com/courses/photography-and-video/', subs: [
         {
           name: 'Digital Photography', uri: 'https://www.udemy.com/courses/photography-and-video/digital-photography/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Photography', uri: 'https://www.udemy.com/topic/photography/' },
+            { name: 'iPhone Photography', uri: 'https://www.udemy.com/topic/iphone-photography/' },
+            { name: 'DSLR', uri: 'https://www.udemy.com/topic/dslr/' },
+            { name: 'Adobe Lightroom', uri: 'https://www.udemy.com/topic/adobe-lightroom/' },
+            { name: 'Mobile Photography', uri: 'https://www.udemy.com/topic/mobile-photography/' },
+            { name: 'Affinity Photo', uri: 'https://www.udemy.com/topic/affinity-photo/' },
+            { name: 'GIMP', uri: 'https://www.udemy.com/topic/gimp/' },
+            { name: 'Photoshop', uri: 'https://www.udemy.com/topic/photoshop/' },
           ]
         },
         {
