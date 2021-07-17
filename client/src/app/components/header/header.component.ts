@@ -1258,7 +1258,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Lifestyle', uri: 'https://www.udemy.com/courses/lifestyle/other-lifestyle/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Neuro-Linguistic Programming', uri: 'https://www.udemy.com/topic/neuro-linguistic-programming/' },
+            { name: 'EFT (Emotional FreedomTechnique)', uri: 'https://www.udemy.com/topic/eft/' },
+            { name: 'Meditation', uri: 'https://www.udemy.com/topic/meditation/' },
+            { name: 'Permaculture', uri: 'https://www.udemy.com/topic/permaculture/' },
+            { name: 'Emotional Intelligence', uri: 'https://www.udemy.com/topic/emotional-intelligence/' },
+            { name: 'Color Theory', uri: 'https://www.udemy.com/topic/color-theory/' },
+            { name: 'Acting', uri: 'https://www.udemy.com/topic/acting/' },
+            { name: 'Herbalism', uri: 'https://www.udemy.com/topic/herbalism/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
           ]
         },
       ]
