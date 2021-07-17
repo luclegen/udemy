@@ -1219,7 +1219,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Home Improvement', uri: 'https://www.udemy.com/courses/lifestyle/home-improvement/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Electricity', uri: 'https://www.udemy.com/topic/electricity/' },
+            { name: 'Gardening', uri: 'https://www.udemy.com/topic/gardening/' },
+            { name: 'Electrical Wiring', uri: 'https://www.udemy.com/topic/electrical-wiring/' },
+            { name: 'Home Repair', uri: 'https://www.udemy.com/topic/home-repair/' },
+            { name: 'Feng Shui', uri: 'https://www.udemy.com/topic/feng-shui/' },
+            { name: 'Decluttering', uri: 'https://www.udemy.com/topic/decluttering/' },
+            { name: 'Woodworking', uri: 'https://www.udemy.com/topic/woodworking/' },
+            { name: 'Aquaponics', uri: 'https://www.udemy.com/topic/aquaponics/' },
+            { name: 'Vastu Shastra', uri: 'https://www.udemy.com/topic/vastu-shastra/' },
           ]
         },
         {
