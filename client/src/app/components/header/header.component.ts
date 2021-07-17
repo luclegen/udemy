@@ -1168,7 +1168,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Beauty & Makeup', uri: 'https://www.udemy.com/courses/lifestyle/beauty-and-makeup/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Beauty', uri: 'https://www.udemy.com/topic/beauty/' },
+            { name: 'Makeup Artistry', uri: 'https://www.udemy.com/topic/makeup-artistry/' },
+            { name: 'Nail Art', uri: 'https://www.udemy.com/topic/nail-art/' },
+            { name: 'Skincare', uri: 'https://www.udemy.com/topic/skincare/' },
+            { name: 'Cosmetics', uri: 'https://www.udemy.com/topic/cosmetics/' },
+            { name: 'Hair Styling', uri: 'https://www.udemy.com/topic/hair-styling/' },
+            { name: 'Tattoo Art', uri: 'https://www.udemy.com/topic/tattoo-art/' },
+            { name: 'Facial Massage', uri: 'https://www.udemy.com/topic/facial-massage/' },
+            { name: 'Perfume', uri: 'https://www.udemy.com/topic/perfume/' },
           ]
         },
         {
