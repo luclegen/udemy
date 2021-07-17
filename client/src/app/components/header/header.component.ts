@@ -1101,7 +1101,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Growth Hacking', uri: 'https://www.udemy.com/courses/marketing/growth-hacking/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Digital Marketing', uri: 'https://www.udemy.com/topic/digital-marketing/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'App Marketing', uri: 'https://www.udemy.com/topic/app-marketing/' },
+            { name: 'Lead Generation', uri: 'https://www.udemy.com/topic/lead-generation/' },
+            { name: 'Facebook Ads', uri: 'https://www.udemy.com/topic/facebook-ads/' },
+            { name: 'SEO', uri: 'https://www.udemy.com/topic/seo/' },
+            { name: 'Passive Income', uri: 'https://www.udemy.com/topic/passive-income/' },
+            { name: 'B2B Sales', uri: 'https://www.udemy.com/topic/b2b-sales/' },
           ]
         },
         {
