@@ -1113,7 +1113,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Affiliate Marketing', uri: 'https://www.udemy.com/courses/marketing/affiliate-marketing/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'ClickBank', uri: 'https://www.udemy.com/topic/clickbank/' },
+            { name: 'Amazon Affiliate Marketing', uri: 'https://www.udemy.com/topic/amazon-affiliate-marketing/' },
+            { name: 'SEO', uri: 'https://www.udemy.com/topic/seo/' },
+            { name: 'CPA Marketing', uri: 'https://www.udemy.com/topic/cpa-marketing/' },
+            { name: 'Home Business', uri: 'https://www.udemy.com/topic/home-business/' },
+            { name: 'Network Marketing', uri: 'https://www.udemy.com/topic/home-business/' },
+            { name: 'Teespring', uri: 'https://www.udemy.com/topic/teespring/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
           ]
         },
         {
