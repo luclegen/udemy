@@ -1194,7 +1194,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Food & Beverage', uri: 'https://www.udemy.com/courses/lifestyle/food-and-beverage/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Cooking', uri: 'https://www.udemy.com/topic/cooking/' },
+            { name: 'Sourdough Bread Baking', uri: 'https://www.udemy.com/topic/sourdough-bread-baking/' },
+            { name: 'Baking', uri: 'https://www.udemy.com/topic/baking/' },
+            { name: 'Bread Baking', uri: 'https://www.udemy.com/topic/bread-baking/' },
+            { name: 'Coffee', uri: 'https://www.udemy.com/topic/coffee/' },
+            { name: 'Indian Cooking', uri: 'https://www.udemy.com/topic/indian-cooking/' },
+            { name: 'Bartending', uri: 'https://www.udemy.com/topic/bartending/' },
+            { name: 'Wine Appreciation and Oenology', uri: 'https://www.udemy.com/topic/wine/' },
+            { name: 'Cake Baking', uri: 'https://www.udemy.com/topic/cake-baking/' },
           ]
         },
         {
