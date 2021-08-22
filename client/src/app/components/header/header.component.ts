@@ -1337,7 +1337,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Video Design', uri: 'https://www.udemy.com/courses/photography-and-video/video-design/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Video Editing', uri: 'https://www.udemy.com/topic/video-editing/' },
+            { name: 'Adobe Premiere', uri: 'https://www.udemy.com/topic/adobe-premiere/' },
+            { name: 'Video Production', uri: 'https://www.udemy.com/topic/video-production/' },
+            { name: 'DaVinci Resolve', uri: 'https://www.udemy.com/topic/davinci-resolve/' },
+            { name: 'Filmmaking', uri: 'https://www.udemy.com/topic/filmmaking/' },
+            { name: 'Color Grading', uri: 'https://www.udemy.com/topic/color-grading/' },
+            { name: 'Cinematography', uri: 'https://www.udemy.com/topic/cinematography/' },
+            { name: 'Final Cut Pro', uri: 'https://www.udemy.com/topic/final-cut-pro/' },
+            { name: 'Videography', uri: 'https://www.udemy.com/topic/videography/' },
           ]
         },
         {
