@@ -1,4 +1,4 @@
-![Udemy Logo](./client/src/assets/svg/udemy.svg)
+![Udemy Logo](./client/src/assets/svg/logo-udemy.svg)
 
 Udemy project is used for design two web page:
 
