@@ -1324,7 +1324,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Commercial Photography', uri: 'https://www.udemy.com/courses/photography-and-video/commercial-photography/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Real Estate Photography', uri: 'https://www.udemy.com/topic/real-estate-photography/' },
+            { name: 'Architecture Photography', uri: 'https://www.udemy.com/topic/architecture-photography/' },
+            { name: 'Product Photography', uri: 'https://www.udemy.com/topic/product-photography/' },
+            { name: 'Wedding Photography', uri: 'https://www.udemy.com/topic/wedding-photography/' },
+            { name: 'Photography Business', uri: 'https://www.udemy.com/topic/photography-business/' },
+            { name: 'Food Photography', uri: 'https://www.udemy.com/topic/food-photography/' },
+            { name: 'Photography', uri: 'https://www.udemy.com/topic/photography/' },
+            { name: 'Marketing Strategy', uri: 'https://www.udemy.com/topic/marketing-strategy/' },
+            { name: 'Photography Lighting', uri: 'https://www.udemy.com/topic/photography-lighting/' },
           ]
         },
         {
