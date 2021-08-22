@@ -1299,7 +1299,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Portrait Photography', uri: 'https://www.udemy.com/courses/photography-and-video/portraits/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Posing', uri: 'https://www.udemy.com/topic/posing/' },
+            { name: 'Photography Business', uri: 'https://www.udemy.com/topic/photography-business/' },
+            { name: 'Photoshop Retouching', uri: 'https://www.udemy.com/topic/photoshop-retouching/' },
+            { name: 'Photography', uri: 'https://www.udemy.com/topic/photography/' },
+            { name: 'Photography Lighting', uri: 'https://www.udemy.com/topic/photography-lighting/' },
+            { name: 'Family Portrait Photography', uri: 'https://www.udemy.com/topic/family-portrait-photography/' },
+            { name: 'Photoshop', uri: 'https://www.udemy.com/topic/photoshop/' },
+            { name: 'Adobe Lightroom', uri: 'https://www.udemy.com/topic/adobe-lightroom/' },
           ]
         },
         {
