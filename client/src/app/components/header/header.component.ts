@@ -1350,7 +1350,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Photography & Video', uri: 'https://www.udemy.com/courses/photography-and-video/other-photography-and-video/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Photography', uri: 'https://www.udemy.com/topic/photography/' },
+            { name: 'Drone Photography', uri: 'https://www.udemy.com/topic/photoshop-retouching/' },
+            { name: 'Landscape Photography', uri: 'https://www.udemy.com/topic/landscape-photography/' },
+            { name: 'Nature Photography', uri: 'https://www.udemy.com/topic/nature-photography/' },
+            { name: 'Filmmaking', uri: 'https://www.udemy.com/topic/filmmaking/' },
+            { name: 'Video Editing', uri: 'https://www.udemy.com/topic/video-editing/' },
+            { name: '3D Modeling', uri: 'https://www.udemy.com/topic/3d-modeling/' },
+            { name: 'Aerial Videography', uri: 'https://www.udemy.com/topic/aerial-videography/' },
+            { name: 'Color Grading', uri: 'https://www.udemy.com/topic/color-grading/' },
           ]
         },
       ]
