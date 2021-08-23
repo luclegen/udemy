@@ -1367,7 +1367,14 @@ export class HeaderComponent implements OnInit {
       name: 'Health & Fitness', uri: 'https://www.udemy.com/courses/health-and-fitness/', subs: [
         {
           name: 'Fitness', uri: 'https://www.udemy.com/courses/health-and-fitness/fitness/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Pilates', uri: 'https://www.udemy.com/topic/pilates/' },
+            { name: 'Home Workout', uri: 'https://www.udemy.com/topic/home-workout/' },
+            { name: 'Muscle Building', uri: 'https://www.udemy.com/topic/muscle-building/' },
+            { name: 'Teacher Training', uri: 'https://www.udemy.com/topic/teacher-training/' },
+            { name: 'Beauty', uri: 'https://www.udemy.com/topic/beauty/' },
+            { name: 'Testosterone', uri: 'https://www.udemy.com/topic/testosterone/' },
+            { name: 'Stretching Exercise', uri: 'https://www.udemy.com/topic/stretching-exercise/' },
+            { name: 'Posture', uri: 'https://www.udemy.com/topic/posture/' },
           ]
         },
         {
