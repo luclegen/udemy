@@ -1405,7 +1405,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Nutrition', uri: 'https://www.udemy.com/courses/health-and-fitness/nutrition/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Health Coaching', uri: 'https://www.udemy.com/topic/health-coaching/' },
+            { name: 'Dieting', uri: 'https://www.udemy.com/topic/dieting/' },
+            { name: 'Sports Nutrition', uri: 'https://www.udemy.com/topic/sports-nutrition/' },
+            { name: 'Vegan Cooking', uri: 'https://www.udemy.com/topic/vegan-cooking/' },
+            { name: 'Ketogenic Diet', uri: 'https://www.udemy.com/topic/ketogenic-diet/' },
+            { name: 'Gut Health', uri: 'https://www.udemy.com/topic/gut-health/' },
+            { name: 'Weight Loss', uri: 'https://www.udemy.com/topic/weight-loss/' },
+            { name: 'Herbalism', uri: 'https://www.udemy.com/topic/herbalism/' },
           ]
         },
         {
