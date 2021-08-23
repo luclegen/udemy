@@ -1379,7 +1379,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'General Health', uri: 'https://www.udemy.com/courses/health-and-fitness/general-health/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Herbalism', uri: 'https://www.udemy.com/topic/herbalism/' },
+            { name: 'Holistic Medicine', uri: 'https://www.udemy.com/topic/holistic-medicine/' },
+            { name: 'Massage', uri: 'https://www.udemy.com/topic/massage/' },
+            { name: 'Aromatherapy', uri: 'https://www.udemy.com/topic/aromatherapy/' },
+            { name: 'Natural Medicine', uri: 'https://www.udemy.com/topic/natural-medicine/' },
+            { name: 'Health', uri: 'https://www.udemy.com/topic/health/' },
+            { name: 'Acupressure', uri: 'https://www.udemy.com/topic/acupressure/' },
+            { name: 'Reflexology', uri: 'https://www.udemy.com/topic/reflexology/' },
+            { name: 'Qi Gong', uri: 'https://www.udemy.com/topic/qi-gong/' },
           ]
         },
         {
