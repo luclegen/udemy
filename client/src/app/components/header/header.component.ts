@@ -1417,7 +1417,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Yoga', uri: 'https://www.udemy.com/courses/health-and-fitness/yoga/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Yoga for Kids', uri: 'https://www.udemy.com/topic/yoga-for-kids/' },
+            { name: 'Pranayama', uri: 'https://www.udemy.com/topic/pranayama/' },
+            { name: 'Kundalini', uri: 'https://www.udemy.com/topic/kundalini/' },
+            { name: 'Teacher Training', uri: 'https://www.udemy.com/topic/teacher-training/' },
+            { name: 'Chair Yoga', uri: 'https://www.udemy.com/topic/chair-yoga/' },
+            { name: 'Prenatal Yoga', uri: 'https://www.udemy.com/topic/prenatal-yoga/' },
+            { name: 'Face Yoga', uri: 'https://www.udemy.com/topic/face-yoga/' },
+            { name: 'Qi Gong', uri: 'https://www.udemy.com/topic/qi-gong/' },
           ]
         },
         {
