@@ -1429,7 +1429,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Mental Health', uri: 'https://www.udemy.com/courses/health-and-fitness/mental-health/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'CBT', uri: 'https://www.udemy.com/topic/cbt/' },
+            { name: 'Art Therapy', uri: 'https://www.udemy.com/topic/art-therapy/' },
+            { name: 'REBT', uri: 'https://www.udemy.com/topic/rebt/' },
+            { name: 'Counseling', uri: 'https://www.udemy.com/topic/counseling/' },
+            { name: 'Trauma-Informed Care', uri: 'https://www.udemy.com/topic/trauma-informed-care/' },
+            { name: 'Life Coach Training', uri: 'https://www.udemy.com/topic/life-coaching/' },
+            { name: 'Psychotherapy', uri: 'https://www.udemy.com/topic/psychotherapy/' },
+            { name: 'Dialectical Behavior Therapy (DBT)', uri: 'https://www.udemy.com/topic/dialectical-behavour-therapy/' },
           ]
         },
         {
