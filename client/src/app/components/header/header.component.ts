@@ -1392,7 +1392,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Sports', uri: 'https://www.udemy.com/courses/health-and-fitness/sports/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Sport Psychology', uri: 'https://www.udemy.com/topic/sport-psychology/' },
+            { name: 'Soccer', uri: 'https://www.udemy.com/topic/soccer/' },
+            { name: 'Tennis', uri: 'https://www.udemy.com/topic/tennis/' },
+            { name: 'Swimming', uri: 'https://www.udemy.com/topic/swimming/' },
+            { name: 'Sports Coaching', uri: 'https://www.udemy.com/topic/sports-coaching/' },
+            { name: 'Martial Arts', uri: 'https://www.udemy.com/topic/martial-arts/' },
+            { name: 'Boxing', uri: 'https://www.udemy.com/topic/boxing/' },
+            { name: 'Golf', uri: 'https://www.udemy.com/topic/golf/' },
+            { name: 'Sports Massage', uri: 'https://www.udemy.com/topic/sports-massage/' },
           ]
         },
         {
