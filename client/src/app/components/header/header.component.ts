@@ -1546,7 +1546,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Music Fundamentals', uri: 'https://www.udemy.com/courses/music/music-fundamentals/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Music Theory', uri: 'https://www.udemy.com/topic/music-theory/' },
+            { name: 'Songwriting', uri: 'https://www.udemy.com/topic/songwriting/' },
+            { name: 'Music Composition', uri: 'https://www.udemy.com/topic/music-composition/' },
+            { name: 'Electronic Music', uri: 'https://www.udemy.com/topic/electronic-music/' },
+            { name: 'Ear Training', uri: 'https://www.udemy.com/topic/ear-training/' },
+            { name: 'Reading Music', uri: 'https://www.udemy.com/topic/reading-music/' },
+            { name: 'Piano', uri: 'https://www.udemy.com/topic/piano/' },
+            { name: 'Piano Chords', uri: 'https://www.udemy.com/topic/piano-chords/' },
+            { name: 'ABRSM', uri: 'https://www.udemy.com/topic/abrsm/' },
           ]
         },
         {
