@@ -1480,7 +1480,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Dance', uri: 'https://www.udemy.com/courses/health-and-fitness/dance/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Belly Dancing', uri: 'https://www.udemy.com/topic/belly-dancing/' },
+            { name: 'Salsa Dancing', uri: 'https://www.udemy.com/topic/salsa-dancing/' },
+            { name: 'Tango Dance', uri: 'https://www.udemy.com/topic/tango-dance/' },
+            { name: 'Hip Hop Dancing', uri: 'https://www.udemy.com/topic/hip-hop-dancing/' },
+            { name: 'Bachata', uri: 'https://www.udemy.com/topic/bachata/' },
+            { name: 'Poi Spinning', uri: 'https://www.udemy.com/topic/poi-spinning/' },
+            { name: 'Ballet', uri: 'https://www.udemy.com/topic/ballet/' },
+            { name: 'Daily Fantasy Sports', uri: 'https://www.udemy.com/topic/fantasy-sports/' },
           ]
         },
         {
