@@ -1454,7 +1454,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Self Defense', uri: 'https://www.udemy.com/courses/health-and-fitness/self-defense/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Krav Maga', uri: 'https://www.udemy.com/topic/krav-maga/' },
+            { name: 'Self-Defense', uri: 'https://www.udemy.com/topic/self-defense/' },
+            { name: 'Close Combat', uri: 'https://www.udemy.com/topic/close-combat/' },
+            { name: 'Martial Arts', uri: 'https://www.udemy.com/topic/martial-arts/' },
+            { name: 'Tai Chi', uri: 'https://www.udemy.com/topic/tai-chi/' },
+            { name: 'Boxing', uri: 'https://www.udemy.com/topic/boxing/' },
+            { name: 'Kung Fu', uri: 'https://www.udemy.com/topic/kung-fu/' },
+            { name: 'Brazilian Jiu-Jitsu', uri: 'https://www.udemy.com/topic/brazilian-jiu-jitsu/' },
+            { name: 'Muay Thai', uri: 'https://www.udemy.com/topic/muay-thai/' },
           ]
         },
         {
