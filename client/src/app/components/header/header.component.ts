@@ -1534,7 +1534,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Music Production', uri: 'https://www.udemy.com/courses/music/production/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Logic Pro X', uri: 'https://www.udemy.com/topic/logic-pro-x/' },
+            { name: 'Music Mixing', uri: 'https://www.udemy.com/topic/music-mixing/' },
+            { name: 'Ableton Live', uri: 'https://www.udemy.com/topic/ableton-live/' },
+            { name: 'Music Composition', uri: 'https://www.udemy.com/topic/music-composition/' },
+            { name: 'FL Studio', uri: 'https://www.udemy.com/topic/fl-studio/' },
+            { name: 'Game Music', uri: 'https://www.udemy.com/topic/game-music/' },
+            { name: 'Audio Production', uri: 'https://www.udemy.com/topic/audio-production/' },
+            { name: 'Audio Engineering', uri: 'https://www.udemy.com/topic/audio-engineering/' },
           ]
         },
         {
