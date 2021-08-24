@@ -1492,7 +1492,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Meditation', uri: 'https://www.udemy.com/courses/health-and-fitness/meditation/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Mindfulness', uri: 'https://www.udemy.com/topic/mindfulness/' },
+            { name: 'Sound Therapy', uri: 'https://www.udemy.com/topic/sound-therapy/' },
+            { name: 'Addiction Recovery', uri: 'https://www.udemy.com/topic/addiction-recovery/' },
+            { name: 'Qi Gong', uri: 'https://www.udemy.com/topic/qi-gong/' },
+            { name: 'Tai Chi', uri: 'https://www.udemy.com/topic/tai-chi/' },
+            { name: 'Stress Management', uri: 'https://www.udemy.com/topic/stress-management/' },
+            { name: 'Chakra', uri: 'https://www.udemy.com/topic/chakra/' },
+            { name: 'Reiki', uri: 'https://www.udemy.com/topic/reiki/' },
           ]
         },
         {
