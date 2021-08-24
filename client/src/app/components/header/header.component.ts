@@ -1504,7 +1504,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Health & Fitness', uri: 'https://www.udemy.com/courses/health-and-fitness/other-health-and-fitness/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Massage', uri: 'https://www.udemy.com/topic/massage/' },
+            { name: 'Sports Massage', uri: 'https://www.udemy.com/topic/sports-massage/' },
+            { name: 'Qi Gong', uri: 'https://www.udemy.com/topic/qi-gong/' },
+            { name: 'Holistic Medicine', uri: 'https://www.udemy.com/topic/holistic-medicine/' },
+            { name: 'EFT (Emotional FreedomTechnique)', uri: 'https://www.udemy.com/topic/eft/' },
+            { name: 'Facial Massage', uri: 'https://www.udemy.com/topic/facial-massage/' },
+            { name: 'Medical Terminology', uri: 'https://www.udemy.com/topic/medical-terminology/' },
+            { name: 'Spiritual Healing', uri: 'https://www.udemy.com/topic/spiritual-healing/' },
+            { name: 'Reiki', uri: 'https://www.udemy.com/topic/reiki/' },
           ]
         },
       ]
