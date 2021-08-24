@@ -1559,7 +1559,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Vocal', uri: 'https://www.udemy.com/courses/music/vocal/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Singing', uri: 'https://www.udemy.com/topic/singing/' },
+            { name: 'Voice Training', uri: 'https://www.udemy.com/topic/voice-training/' },
+            { name: 'Voice Acting', uri: 'https://www.udemy.com/topic/voice-acting/' },
+            { name: 'Rapping', uri: 'https://www.udemy.com/topic/rapping/' },
+            { name: 'Raga Music', uri: 'https://www.udemy.com/topic/raga-music/' },
+            { name: 'Yoga', uri: 'https://www.udemy.com/topic/yoga/' },
+            { name: 'Carnatic Music', uri: 'https://www.udemy.com/topic/carnatic-music/' },
+            { name: 'Mindset', uri: 'https://www.udemy.com/topic/mindset/' },
+            { name: 'Coaching', uri: 'https://www.udemy.com/topic/coaching/' },
           ]
         },
         {
