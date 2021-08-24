@@ -1521,7 +1521,15 @@ export class HeaderComponent implements OnInit {
       name: 'Music', uri: 'https://www.udemy.com/courses/music/', subs: [
         {
           name: 'Instruments', uri: 'https://www.udemy.com/courses/music/instruments/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Piano', uri: 'https://www.udemy.com/topic/piano/' },
+            { name: 'Guitar', uri: 'https://www.udemy.com/topic/guitar/' },
+            { name: 'Keyboard Instrument', uri: 'https://www.udemy.com/topic/keyboard-instrument/' },
+            { name: 'Ukulele', uri: 'https://www.udemy.com/topic/ukulele/' },
+            { name: 'Bass Guitar', uri: 'https://www.udemy.com/topic/bass-guitar/' },
+            { name: 'Drums', uri: 'https://www.udemy.com/topic/drums/' },
+            { name: 'Violin', uri: 'https://www.udemy.com/topic/violin/' },
+            { name: 'Blues Guitar', uri: 'https://www.udemy.com/topic/blues-guitar/' },
+            { name: 'Harmonica', uri: 'https://www.udemy.com/topic/harmonica/' },
           ]
         },
         {
