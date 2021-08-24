@@ -1467,7 +1467,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Safety & First Aid', uri: 'https://www.udemy.com/courses/health-and-fitness/safety-and-first-aid/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'First Aid', uri: 'https://www.udemy.com/topic/first-aid/' },
+            { name: 'Herbalism', uri: 'https://www.udemy.com/topic/herbalism/' },
+            { name: 'Workplace Health and Safety', uri: 'https://www.udemy.com/topic/work-safety/' },
+            { name: 'Nursing', uri: 'https://www.udemy.com/topic/nursing/' },
+            { name: 'Health', uri: 'https://www.udemy.com/topic/health/' },
+            { name: 'Health Coaching', uri: 'https://www.udemy.com/topic/health-coaching/' },
+            { name: 'Survival Skills', uri: 'https://www.udemy.com/topic/survival-skills/' },
+            { name: 'OSHA', uri: 'https://www.udemy.com/topic/osha/' },
+            { name: 'Grief Healing', uri: 'https://www.udemy.com/topic/grief-healing/' },
           ]
         },
         {
