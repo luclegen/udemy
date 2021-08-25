@@ -1679,7 +1679,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Social Science', uri: 'https://www.udemy.com/courses/teaching-and-academics/social-science/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Psychology', uri: 'https://www.udemy.com/topic/psychology-fundamentals/' },
+            { name: 'Counseling', uri: 'https://www.udemy.com/topic/counseling/' },
+            { name: 'Economics', uri: 'https://www.udemy.com/topic/economics/' },
+            { name: 'Criminology', uri: 'https://www.udemy.com/topic/criminology/' },
+            { name: 'Psychotherapy', uri: 'https://www.udemy.com/topic/psychotherapy/' },
+            { name: 'Dialectical Behavior Therapy (DBT)', uri: 'https://www.udemy.com/topic/dialectical-behavour-therapy/' },
+            { name: 'Critical Thinking', uri: 'https://www.udemy.com/topic/critical-thinking/' },
+            { name: 'Macroeconomics', uri: 'https://www.udemy.com/topic/macroeconomics/' },
+            { name: 'Social Psychology', uri: 'https://www.udemy.com/topic/social-psychology/' },
           ]
         },
         {
