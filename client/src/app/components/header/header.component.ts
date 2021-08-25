@@ -1730,7 +1730,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Other Teaching & Academics', uri: 'https://www.udemy.com/courses/teaching-and-academics/other-teaching-academics/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Proofreading', uri: 'https://www.udemy.com/topic/proofreading/' },
+            { name: 'Research Methods', uri: 'https://www.udemy.com/topic/research-methods/' },
+            { name: 'NVivo', uri: 'https://www.udemy.com/topic/nvivo/' },
+            { name: 'Academic Writing', uri: 'https://www.udemy.com/topic/academic-writing/' },
+            { name: 'Career Coaching', uri: 'https://www.udemy.com/topic/career-coaching/' },
+            { name: 'Early Childhood Education', uri: 'https://www.udemy.com/topic/early-childhood-education/' },
+            { name: 'Design of Experiments (DOE)', uri: 'https://www.udemy.com/topic/design-of-experiments-doe/' },
+            { name: 'Research Paper Writing', uri: 'https://www.udemy.com/topic/research-paper-writing/' },
+            { name: 'Punctuation', uri: 'https://www.udemy.com/topic/punctuation/' },
           ]
         },
       ]
