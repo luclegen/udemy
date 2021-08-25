@@ -1653,7 +1653,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Science', uri: 'https://www.udemy.com/courses/teaching-and-academics/science/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Physics', uri: 'https://www.udemy.com/topic/physics/' },
+            { name: 'Orthodontics', uri: 'https://www.udemy.com/topic/orthodontics/' },
+            { name: 'Chemistry', uri: 'https://www.udemy.com/topic/chemistry/' },
+            { name: 'Bioinformatics', uri: 'https://www.udemy.com/topic/bioinformatics/' },
+            { name: 'Research Paper Writing', uri: 'https://www.udemy.com/topic/research-paper-writing/' },
+            { name: 'Biology', uri: 'https://www.udemy.com/topic/biology/' },
+            { name: 'Solar Energy', uri: 'https://www.udemy.com/topic/solar-energy/' },
+            { name: 'AP Physics', uri: 'https://www.udemy.com/topic/ap-physics/' },
+            { name: 'Anatomy', uri: 'https://www.udemy.com/topic/anatomy/' },
           ]
         },
         {
