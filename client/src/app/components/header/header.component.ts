@@ -1692,7 +1692,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Language Learning', uri: 'https://www.udemy.com/courses/teaching-and-academics/language/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'English Language', uri: 'https://www.udemy.com/topic/english-language/' },
+            { name: 'German Language', uri: 'https://www.udemy.com/topic/german-language/' },
+            { name: 'Spanish Language', uri: 'https://www.udemy.com/topic/spanish-language/' },
+            { name: 'Japanese Language', uri: 'https://www.udemy.com/topic/japanese-language/' },
+            { name: 'English Grammar', uri: 'https://www.udemy.com/topic/english-grammar/' },
+            { name: 'English Conversation', uri: 'https://www.udemy.com/topic/english-conversation/' },
+            { name: 'French Language', uri: 'https://www.udemy.com/topic/french-language/' },
+            { name: 'English Vocabulary', uri: 'https://www.udemy.com/topic/english-vocabulary/' },
+            { name: 'Sign Language', uri: 'https://www.udemy.com/topic/sign-language/' },
           ]
         },
         {
