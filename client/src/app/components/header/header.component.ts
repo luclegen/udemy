@@ -1705,7 +1705,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Teacher Training', uri: 'https://www.udemy.com/courses/teaching-and-academics/teacher-training/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Train the Trainer', uri: 'https://www.udemy.com/topic/train-the-trainer/' },
+            { name: 'Instructional Design', uri: 'https://www.udemy.com/topic/instructional-design/' },
+            { name: 'Early Childhood Education', uri: 'https://www.udemy.com/topic/early-childhood-education/' },
+            { name: 'Voice-Over', uri: 'https://www.udemy.com/topic/voice-over/' },
+            { name: 'ESL', uri: 'https://www.udemy.com/topic/esl/' },
+            { name: 'Coaching', uri: 'https://www.udemy.com/topic/coaching/' },
+            { name: 'Moodle', uri: 'https://www.udemy.com/topic/moodle/' },
+            { name: 'Presentation Skills', uri: 'https://www.udemy.com/topic/presentation-skills/' },
           ]
         },
         {
