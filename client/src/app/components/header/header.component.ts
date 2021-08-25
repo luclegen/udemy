@@ -1615,7 +1615,15 @@ export class HeaderComponent implements OnInit {
       name: 'Teaching & Academics', uri: 'https://www.udemy.com/courses/teaching-and-academics/', subs: [
         {
           name: 'Engineering', uri: 'https://www.udemy.com/courses/teaching-and-academics/engineering/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Electronics', uri: 'https://www.udemy.com/topic/electronics/' },
+            { name: 'Electrical Engineering', uri: 'https://www.udemy.com/topic/electrical-engineering/' },
+            { name: 'Civil Engineering', uri: 'https://www.udemy.com/topic/civil-engineering/' },
+            { name: 'Mechanical Engineering', uri: 'https://www.udemy.com/topic/mechanical-engineering/' },
+            { name: 'Structural Engineering', uri: 'https://www.udemy.com/topic/structural-engineering/' },
+            { name: 'Robotics', uri: 'https://www.udemy.com/topic/robotics/' },
+            { name: 'Electric Vehicles', uri: 'https://www.udemy.com/topic/electric-vehicles/' },
+            { name: 'Aerospace Engineering', uri: 'https://www.udemy.com/topic/aerospace-engineering/' },
+            { name: 'Control Systems', uri: 'https://www.udemy.com/topic/control-systems/' },
           ]
         },
         {
