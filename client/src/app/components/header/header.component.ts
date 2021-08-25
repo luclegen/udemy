@@ -1691,7 +1691,7 @@ export class HeaderComponent implements OnInit {
           ]
         },
         {
-          name: 'Language', uri: 'https://www.udemy.com/courses/teaching-and-academics/language/', subs: [
+          name: 'Language Learning', uri: 'https://www.udemy.com/courses/teaching-and-academics/language/', subs: [
             { name: 'D21', uri: 'd21' },
           ]
         },
