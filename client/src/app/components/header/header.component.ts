@@ -1641,7 +1641,14 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Math', uri: 'https://www.udemy.com/courses/teaching-and-academics/math/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Calculus', uri: 'https://www.udemy.com/topic/calculus/' },
+            { name: 'Statistics', uri: 'https://www.udemy.com/topic/statistics/' },
+            { name: 'Linear Algebra', uri: 'https://www.udemy.com/topic/linear-algebra/' },
+            { name: 'Algebra', uri: 'https://www.udemy.com/topic/algebra/' },
+            { name: 'Probability', uri: 'https://www.udemy.com/topic/probability/' },
+            { name: 'Trigonometry', uri: 'https://www.udemy.com/topic/trigonometry/' },
+            { name: 'Discrete Math', uri: 'https://www.udemy.com/topic/discrete-math/' },
+            { name: 'Geometry', uri: 'https://www.udemy.com/topic/geometry/' },
           ]
         },
         {
