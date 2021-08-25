@@ -1585,7 +1585,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Music Software', uri: 'Music Software', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'FL Studio', uri: 'https://www.udemy.com/topic/fl-studio/' },
+            { name: 'Ableton Live', uri: 'https://www.udemy.com/topic/ableton-live/' },
+            { name: 'Logic Pro X', uri: 'https://www.udemy.com/topic/logic-pro-x/' },
+            { name: 'Music Production', uri: 'https://www.udemy.com/topic/music-production/' },
+            { name: 'GarageBand', uri: 'https://www.udemy.com/topic/garageband/' },
+            { name: 'Pro Tools', uri: 'https://www.udemy.com/topic/pro-tools/' },
+            { name: 'Cubase', uri: 'https://www.udemy.com/topic/cubase/' },
+            { name: 'DJ', uri: 'https://www.udemy.com/topic/dj/' },
+            { name: 'Audacity Software', uri: 'https://www.udemy.com/topic/audacity-software/' },
           ]
         },
         {
