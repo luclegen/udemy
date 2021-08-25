@@ -1666,7 +1666,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Online Education', uri: 'https://www.udemy.com/courses/teaching-and-academics/online-education/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Online Course Creation', uri: 'https://www.udemy.com/topic/online-course-creation/' },
+            { name: 'Data Entry Skills', uri: 'https://www.udemy.com/topic/data-entry-skills/' },
+            { name: 'Teaching Online', uri: 'https://www.udemy.com/topic/teaching-online/' },
+            { name: 'Online Business', uri: 'https://www.udemy.com/topic/online-business/' },
+            { name: 'Teaching English', uri: 'https://www.udemy.com/topic/teaching-english/' },
+            { name: 'Instructional Design', uri: 'https://www.udemy.com/topic/instructional-design/' },
+            { name: 'Passive Income', uri: 'https://www.udemy.com/topic/passive-income/' },
+            { name: 'Moodle', uri: 'https://www.udemy.com/topic/moodle/' },
+            { name: 'Cyber Security Awareness', uri: 'https://www.udemy.com/topic/cyber-security-awareness/' },
           ]
         },
         {
