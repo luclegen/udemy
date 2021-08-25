@@ -1717,7 +1717,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Test Prep', uri: 'https://www.udemy.com/courses/teaching-and-academics/test-prep/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'IELTS', uri: 'https://www.udemy.com/topic/ielts/' },
+            { name: 'TOEFL', uri: 'https://www.udemy.com/topic/toefl/' },
+            { name: 'Math', uri: 'https://www.udemy.com/topic/math/' },
+            { name: 'PMBOK', uri: 'https://www.udemy.com/topic/pmbok/' },
+            { name: 'Bookkeeping', uri: 'https://www.udemy.com/topic/bookkeeping/' },
+            { name: 'GMAT', uri: 'https://www.udemy.com/topic/gmat/' },
+            { name: 'GRE', uri: 'https://www.udemy.com/topic/gre/' },
+            { name: 'CAPM', uri: 'https://www.udemy.com/topic/capm/' },
+            { name: 'PMP', uri: 'https://www.udemy.com/topic/pmp/' },
           ]
         },
         {
