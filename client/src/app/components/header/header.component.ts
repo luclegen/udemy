@@ -1628,7 +1628,15 @@ export class HeaderComponent implements OnInit {
         },
         {
           name: 'Humanities', uri: 'https://www.udemy.com/courses/teaching-and-academics/humanities/', subs: [
-            { name: 'D21', uri: 'd21' },
+            { name: 'Christianity', uri: 'https://www.udemy.com/topic/christianity/' },
+            { name: 'The Bible', uri: 'https://www.udemy.com/topic/the-bible/' },
+            { name: 'Philosophy', uri: 'https://www.udemy.com/topic/philosophy/' },
+            { name: 'Statistics', uri: 'https://www.udemy.com/topic/statistics/' },
+            { name: 'Creative Writing', uri: 'https://www.udemy.com/topic/creative-writing/' },
+            { name: 'Psychology', uri: 'https://www.udemy.com/topic/psychology-fundamentals/' },
+            { name: 'Art History', uri: 'https://www.udemy.com/topic/art-history/' },
+            { name: 'Critical Thinking', uri: 'https://www.udemy.com/topic/critical-thinking/' },
+            { name: 'English Literature', uri: 'https://www.udemy.com/topic/english-literature/' },
           ]
         },
         {
